@@ -1,5 +1,6 @@
 
-## [Homepage](https://sinzyyin.github.io/) &ensp [Portfolio](test) &ensp [Resume](test)
+
+## [Homepage](https://sinzyyin.github.io/) &nbsp; [Portfolio](test) &nbsp; [Resume](test)
 
 
 
