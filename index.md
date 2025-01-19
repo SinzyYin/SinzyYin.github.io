@@ -1,6 +1,6 @@
 
 
-## [Homepage](https://sinzyyin.github.io/) &nbsp; [Portfolio](test) &nbsp; [Resume](test)
+## [Homepage](https://sinzyyin.github.io/) &nbsp; [Portfolio](test) &nbsp; [Resume](\pages\main_pages\Resume.md)
 
 
 
