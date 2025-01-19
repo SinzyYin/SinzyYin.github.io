@@ -1,5 +1,5 @@
-## Discover
-[Pinned](https://sinzyyin.github.io/) [Portfolio](test) [Resume](test)
+
+## [Homepage](https://sinzyyin.github.io/) &ensp [Portfolio](test) &ensp [Resume](test)
 
 
 
