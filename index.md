@@ -1,5 +1,4 @@
-
-
+## Discover
 [Pinned](https://sinzyyin.github.io/) [Portfolio](test) [Resume](test)
 
 
