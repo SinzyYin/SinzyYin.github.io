@@ -40,18 +40,21 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 **Vice Head of Finance**<br>
 *INTI Sales Support Team*<br>
 *Sept 2023 – Jul 2024*
+- idk
 
 ---
 
 **Student Helper**<br>
 *INTI Sales Support Team*<br>
 *Apr 2023 – Sept 2023*
+- idk
 
 ---
 
 **Club Secretary**<br>
 *Inti Subang eSports Club*<br>
 *Dec 2022 – Oct 2023*
+- idk
 
 ---
 
