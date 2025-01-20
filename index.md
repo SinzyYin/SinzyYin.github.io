@@ -12,39 +12,35 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 ---
 
 ### 🎓 Education
-- **University School Of The Arts**  
-  *2007 — 2008*  
-  - Studied advanced topics in visual arts and design.
-  - Specialized in sculpture and digital media.  
+- **Swinburne University of Technology**  
+  *July 2023 - Feb 2026*  
+  **Bachelor of Media and Communication**  
+  - Major in Advertising and Social Media; Minor in Digital Marketing
 
-- **New York Academy Of Art**  
-  *2006 — 2007*  
-  - Focused on traditional and contemporary art techniques.
-  - Graduated with honors in fine arts.  
+- **INTI International College Subang**  
+  *Aug 2022 - Apr 2023*  
+  **Foundation in Arts** (CGPA 3.63)  
+  - Idk
 
-- **High School Of Art And Design**  
-  *2002 — 2004*  
-  - Developed foundational skills in visual arts and design.
-  - Participated in regional art exhibitions.  
+- **Kuen Cheng High School**  
+  *Jan 2017 - Mar 2022*  
+  **High School Diploma**, Liberal Arts and Sciences  
 
 ---
 
-### 💼 Experience
-- **Creative Director | Art House Studio**  
-  *2015 — Present*  
-  - Led a team of designers in creating visual concepts for global campaigns.
-  - Worked on branding and packaging for high-profile clients.
+### 💼 Work Experience
+- **Vice Head of Finance | INTI Sales Support Team**
+  **Sept 2023 - Jul 2024*
 
-- **Graphic Designer | Visual Flow Agency**  
-  *2010 — 2015*  
-  - Designed marketing materials and website layouts for various clients.
-  - Contributed to 20+ successful ad campaigns.
+- **Student Helper | Inti Sales Support Team**
+    *Apr 2023 - Sept 2023*
 
-- **Freelance Illustrator**  
-  *2008 — 2010*  
-  - Created custom illustrations for magazines and online publications.
-  - Collaborated with local authors on book cover designs.
+- **Secretary | Inti Subang eSports Club**
+  *Dec 2022 - Oct 2023*
 
+- **Learning Center Educator (Part-Time) |MRC Kids**
+  *Jun 2022 - Sep 2022*
+  - On-site
 ---
 ---
 
