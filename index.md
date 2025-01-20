@@ -4,7 +4,7 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 
 ## Directory
 ---
-### [Homepage](Index.md) &nbsp; [Portfolio](Portfolio.html) &nbsp; [Resume](pdf\London-Resume-Template-Professional.pdf)
+### [Homepage](https://sinzyyin.github.io/) &nbsp; [Portfolio](Portfolio.html) &nbsp; [Resume](pdf\London-Resume-Template-Professional.pdf)
 
 
 
