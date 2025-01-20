@@ -4,13 +4,13 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 
 ## Directory
 ---
-### [Homepage](https://sinzyyin.github.io/) &nbsp; [Portfolio](test) &nbsp; [Resume](\pages\main_pages\Resume.md)
+### [Homepage](Index.md) &nbsp; [Portfolio](Portfolio.html) &nbsp; [Resume](pdf\London-Resume-Template-Professional.pdf)
 
 
 
 ---
 
-### Category Name 1 
+### Pinned Projects
 
 [Project 1 Title](/sample_page)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
@@ -22,16 +22,6 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 ---
 [Project 3 Title](http://example.com/)
 <img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-
-### Category Name 2
-
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
 
 ---
 
