@@ -7,7 +7,45 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 ### [Homepage](https://sinzyyin.github.io/) &nbsp; [Portfolio](Portfolio.html) &nbsp; [Resume](pdf\London-Resume-Template-Professional.pdf)
 
 
+# About Me
 
+---
+
+### 🎓 Education
+- **University School Of The Arts**  
+  *2007 — 2008*  
+  - Studied advanced topics in visual arts and design.
+  - Specialized in sculpture and digital media.  
+
+- **New York Academy Of Art**  
+  *2006 — 2007*  
+  - Focused on traditional and contemporary art techniques.
+  - Graduated with honors in fine arts.  
+
+- **High School Of Art And Design**  
+  *2002 — 2004*  
+  - Developed foundational skills in visual arts and design.
+  - Participated in regional art exhibitions.  
+
+---
+
+### 💼 Experience
+- **Creative Director | Art House Studio**  
+  *2015 — Present*  
+  - Led a team of designers in creating visual concepts for global campaigns.
+  - Worked on branding and packaging for high-profile clients.
+
+- **Graphic Designer | Visual Flow Agency**  
+  *2010 — 2015*  
+  - Designed marketing materials and website layouts for various clients.
+  - Contributed to 20+ successful ad campaigns.
+
+- **Freelance Illustrator**  
+  *2008 — 2010*  
+  - Created custom illustrations for magazines and online publications.
+  - Collaborated with local authors on book cover designs.
+
+---
 ---
 
 ### Pinned Projects
