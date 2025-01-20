@@ -3,8 +3,14 @@ logo: "/images/logo.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Final Year Communication Student at INTI International College Subang | Major in Advertising & Social Media | Minor in Digital Marketing
   <br><br>
-  Second description 
+
   <br><br>
+  <img
+    src="https://img.icons8.com/?size=100&id=7880&format=png&color=000000"
+    alt = "Location Logo"
+    style="height:15px; margin-right:3px; vertical-align:middle;"
+  />
+    Seri Kembangan, Selangor  
   <img 
     src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" 
     alt="LinkedIn Logo" 
