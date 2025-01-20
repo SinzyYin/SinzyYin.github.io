@@ -14,34 +14,37 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 ---
 
 ### 🎓 Education
-- **Swinburne University of Technology, Bachelor of Media & Communication**
+- **Swinburne University of Technology**, <br>
+  Bachelor of Media & Communication
   *July 2023 - Feb 2026*   
   - Major in Advertising and Social Media; Minor in Digital Marketing
 
-- **INTI International College Subang, Foundation in Arts (CGPA 3.63)**
+- **INTI International College Subang**, <br>
+- Foundation in Arts (CGPA 3.63)**
   *Aug 2022 - Apr 2023*  
   - Idk
 
-- **Kuen Cheng High School, High School Diploma, Liberal Arts and Sciences**
+- **Kuen Cheng High School**, <br>
+  High School Diploma, Liberal Arts and Sciences
   *Jan 2017 - Mar 2022*
   - idk
 
 ---
 
 ### 💼 Work Experience
-- **INTI Sales Support Team, Vice Head of Finance**
+- **INTI Sales Support Team | Vice Head of Finance**
   *Sept 2023 - Jul 2024*
   - idk
  
-- **Inti Sales Support Team, Student Helper**
+- **Inti Sales Support Team | Student Helper**
   *Apr 2023 - Sept 2023*
   - idk
 
-- **Inti Subang eSports Club, Secretary**
+- **Inti Subang eSports Club | Secretary**
   *Dec 2022 - Oct 2023*
   - idk
    
-- **MRC Kids, Part-Time Learning Center Educator**
+- **MRC Kids | Part-Time Learning Center Educator**
   *Jun 2022 - Sep 2022*
   - On-site
  
