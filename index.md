@@ -1,6 +1,9 @@
+Nice to meet you 😃
+I am Sin Yin, a final year student 
 
-
-## [Homepage](https://sinzyyin.github.io/) &nbsp; [Portfolio](test) &nbsp; [Resume](\pages\main_pages\Resume.md)
+## Directory
+---
+### [Homepage](https://sinzyyin.github.io/) &nbsp; [Portfolio](test) &nbsp; [Resume](\pages\main_pages\Resume.md)
 
 
 
