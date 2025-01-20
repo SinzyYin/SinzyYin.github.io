@@ -8,19 +8,19 @@ description: > # your text below (remove <br> elements if you don't need line br
   <img 
     src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" 
     alt="LinkedIn Logo" 
-    style="height:14px; margin-left:3px; vertical-align:text-bottom;"
+    style="height:15px; margin-right:3px; vertical-align:middle;"
   />  
     <a href="https://www.linkedin.com/in/yapsinyin/">
-      View My LinkedIn Profile
+      LinkedIn Profile
    </a>
   <br><br>
   <img 
     src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" 
     alt="GitHub Logo" 
-    style="height:14px; margin-left:3px; vertical-align:text-bottom;"
+    style="height:15px; margin-right:3px; vertical-aligh:middle;"
   />
    <a href="https://github.com/SinzyYin">
-      View My GitHub Profile
+      GitHub Profile
    </a>
   <br><br>
 remote_theme: pages-themes/minimal@v0.2.0
