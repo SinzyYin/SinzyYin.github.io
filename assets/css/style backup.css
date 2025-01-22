@@ -11,9 +11,10 @@ body {
     font-size: 1.0rem !important; /* Increased body font size */
     background-color: #e5e3dc !important; /* Website background color */
 }
+
 .black-link {
-    color: #0A0A0A !important;
-    text-decoration: none !important; /* Optional: removes underline */
+color: #0A0A0A !important;
+text-decoration: none !important; /* Optional: removes underline */
 }
 
 /* Italic Text */
@@ -34,7 +35,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Lora', 'Georgia', 'Times New Roman', serif !important;
     font-weight: 400 !important;
-    margin: 0 !important;
+    margin: 20px 0 !important;
     line-height: 1.3 !important; /* Slightly increased line-height for headings */
 }
 /* Font Sizes for Headings */
