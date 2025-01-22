@@ -42,12 +42,12 @@
  
     .black-link a {
         transition: color 0.3s ease, transform 0.2s ease !important; /* Smooth color and scale transition */
-        color: 0A0A0A#0A0A0A !important;
+        color: #0A0A0A !important;
         text-decoration: none !important;
     }
 
     .black-link a:hover {
-        color: # black !important; /* Change color on hover */
+        color: black !important; /* Change color on hover */
         transform: scale(1.05) !important; /* Slightly enlarge the text */
   }
     }
@@ -103,7 +103,7 @@
 <body>
    <div class="wrapper">
       <header>
-            <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }} class="black-link"</a></h1>
+            <h1><a href="{{ "/" | absolute_url }}" class="black-link">{{ site.title | default: site.github.repository_name }}</a></h1>
             {% if site.logo %}
             <img src="{{site.logo | relative_url}}" alt="Logo" style="border-radius: 50%; width: 300px; height: 250px;" />
             {% endif %}
