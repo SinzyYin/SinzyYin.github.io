@@ -41,13 +41,15 @@
     }
  
     .black-link a {
-        transition: transform 0.1s linear !important;
-        color: #0A0A0A !important;
+        transition: color 0.3s ease, transform 0.2s ease !important; /* Smooth color and scale transition */
+        color: 0A0A0A#0A0A0A !important;
         text-decoration: none !important;
     }
 
     .black-link a:hover {
-        transform: scale(1.05) !important;
+        color: # black !important; /* Change color on hover */
+        transform: scale(1.05) !important; /* Slightly enlarge the text */
+  }
     }
 
     /* Italic Text */
