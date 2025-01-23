@@ -1,7 +1,8 @@
 ## Directory
 ---
-### [Homepage](https://sinzyyin.github.io/) &nbsp; [Portfolio](Portfolio) &nbsp; [Resume](Resume)
----
+### [Homepage]() &nbsp; [Linkedin Updates]() &nbsp; [Learning Milestones]() &nbsp;
+
+### [Data Analysis & Visualization]() &nbsp;
 <br><br>
 
 # About Me
