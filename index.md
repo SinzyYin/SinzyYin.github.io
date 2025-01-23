@@ -1,9 +1,9 @@
-#### Directory\
+#### Directory
+---
+###### [Homepage]() &nbsp; [Linkedin Updates]() &nbsp; [Learning Milestones]() &nbsp;
 
-##### [Homepage]() &nbsp; [Linkedin Updates]() &nbsp; [Learning Milestones]() &nbsp;
-
-##### [Data Analysis & Visualization]() &nbsp;
-<br><br>\
+###### [Data Analysis & Visualization]() &nbsp;
+<br><br>
 
 ### About Me
 <br><br>
@@ -14,7 +14,7 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 <br><br>
 
 
-#### 🎓 Education\
+#### 🎓 Education
 **Bachelor of Media & Communication**<br>
 *Swinburne University of Technology*<br>
 *July 2023 – Feb 2026*<br>
