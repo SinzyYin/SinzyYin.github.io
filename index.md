@@ -1,6 +1,6 @@
 ## Directory
 ---
-### [Homepage](https://sinzyyin.github.io/) &nbsp; [Portfolio](Portfolio.html) &nbsp; [Resume](pdf\London-Resume-Template-Professional.pdf)
+### [Homepage](https://sinzyyin.github.io/) &nbsp; [Portfolio](Portfolio.html) &nbsp; [Resume](Resume.html)
 ---
 <br><br>
 
