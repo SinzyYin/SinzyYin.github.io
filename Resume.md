@@ -1,34 +1,21 @@
 ## My Resume
 
-<a 
-    href="pdf/resume.pdf" 
-    style="color: black; text-decoration: none;" 
-    target="_blank" 
-    rel="noopener noreferrer"
->
-    Download My Resume
-    <img 
-        src="https://img.icons8.com/?size=100&id=0lOmk1wWQoGI&format=png&color=000000" 
-        alt="PDF Logo" 
-        style="height: 18px; margin-left: 5px; vertical-align: middle;" 
-    />
-</a>
+[Download My Resume](pdf\sample_presentation.pdf){: style="color: black; text-decoration: none;" target="_blank" rel="noopener noreferrer"} 
+<img 
+    src="https://img.icons8.com/?size=100&id=0lOmk1wWQoGI&format=png&color=000000" 
+    alt="PDF Logo" 
+    style="height: 18px; margin-left: 5px; vertical-align: middle;"
+/>
 
-<br>
+<br><br>
 
-<a 
-    href="https://www.linkedin.com/in/yapsinyin/" 
-    style="color: black; text-decoration: none;" 
-    target="_blank" 
-    rel="noopener noreferrer"
->
-    Contact Me at LinkedIn
-    <img 
-        src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" 
-        alt="LinkedIn Logo" 
-        style="height: 18px; margin-left: 5px; vertical-align: middle;" 
-    />
-</a>
+[Contact Me at LinkedIn](https://www.linkedin.com/in/yapsinyin/){: style="color: black; text-decoration: none;" target="_blank" rel="noopener noreferrer"} 
+<img 
+    src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" 
+    alt="LinkedIn Logo" 
+    style="height: 18px; margin-left: 5px; vertical-align: middle;"
+/>
+
 
 
 ---
