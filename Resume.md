@@ -1,24 +1,36 @@
 ## My Resume
 
-<a href="pdf/resume.pdf">
+<a 
+    href="pdf/resume.pdf" 
+    style="color: black; text-decoration: none;" 
+    target="_blank" 
+    rel="noopener noreferrer"
+>
+    Download My Resume
     <img 
         src="https://img.icons8.com/?size=100&id=0lOmk1wWQoGI&format=png&color=000000" 
         alt="PDF Logo" 
-        style="height: 15px; vertical-align: middle;"
+        style="height: 18px; margin-left: 5px; vertical-align: middle;" 
     />
-    Download My Resume
 </a>
 
-<br><br>
+<br>
 
-<a href="https://www.linkedin.com/in/yapsinyin/">
+<a 
+    href="https://www.linkedin.com/in/yapsinyin/" 
+    style="color: black; text-decoration: none;" 
+    target="_blank" 
+    rel="noopener noreferrer"
+>
+    Contact Me at LinkedIn
     <img 
         src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" 
         alt="LinkedIn Logo" 
-        style="height: 15px; vertical-align: middle;"
+        style="height: 18px; margin-left: 5px; vertical-align: middle;" 
     />
-    Contact Me at LinkedIn
 </a>
+
+
 ---
 
 <iframe
