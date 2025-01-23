@@ -1,8 +1,24 @@
-### My Resume
+## My Resume
 
-[Download My Resume](pdf\resume.pdf)
-[Contact Me at Linkedin](https://www.linkedin.com/in/yapsinyin/)
+<a href="pdf/resume.pdf">
+    <img 
+        src="https://img.icons8.com/?size=100&id=0lOmk1wWQoGI&format=png&color=000000" 
+        alt="PDF Logo" 
+        style="height: 15px; vertical-align: middle;"
+    />
+    Download My Resume
+</a>
 
+<br><br>
+
+<a href="https://www.linkedin.com/in/yapsinyin/">
+    <img 
+        src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" 
+        alt="LinkedIn Logo" 
+        style="height: 15px; vertical-align: middle;"
+    />
+    Contact Me at LinkedIn
+</a>
 ---
 
 <iframe
