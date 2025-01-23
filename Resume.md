@@ -6,24 +6,18 @@
     alt="PDF Logo" 
     style="height: 18px; margin-left: 5px; vertical-align: middle;"
 />  
-Download My Resume
-
-<br><br>
-
+<br>
 [Contact Me at LinkedIn](https://www.linkedin.com/in/yapsinyin/){: target="_blank" rel="noopener noreferrer"}  
 <img 
     src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" 
     alt="LinkedIn Logo" 
     style="height: 18px; margin-left: 5px; vertical-align: middle;"
 />  
-Contact Me at LinkedIn
 
-
-
----
+-----
 
 <iframe
-    src="pdf\resume.pdf"
+    src="pdf\sample_presentation.pdf"
     width="100%"
     height="600px"
     style="border: none;"
