@@ -1,6 +1,6 @@
 ## Directory
 ---
-### [Homepage](https://sinzyyin.github.io/) &nbsp; [Portfolio](Portfolio.html) &nbsp; [Resume](Resume.html)
+### [Homepage](https://sinzyyin.github.io/) &nbsp; [Portfolio](Portfolio.html) &nbsp; [Resume](Resume.md)
 ---
 <br><br>
 
