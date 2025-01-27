@@ -1,9 +1,13 @@
 #### Directory
+
 ---
+
 ###### [Homepage]() &nbsp; [Linkedin Updates]() &nbsp; [Learning Milestones]() &nbsp;
 
 ###### [Data Analysis & Visualization]() &nbsp;
 <br><br>
+
+---
 
 ### About Me
 <br><br>
@@ -15,38 +19,35 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 
 
 #### 🎓 Education
-**Bachelor of Media & Communication**<br>
-*Swinburne University of Technology*<br>
-*July 2023 – Feb 2026*<br>
+**Swinburne University of Technology | July 2023 – Feb 2026** <br>
+*Bachelor of Media & Communication*<br>
 - Major in Advertising and Social Media; Minor in Digital Marketing
 
 
-
-**Foundation in Arts**<br>
-*INTI International College Subang*<br>
-*Aug 2022 – Apr 2023*<br>
+**INTI International College Subang | Aug 2022 – Apr 2023** <br>
+*Foundation in Arts*<br>
 - CGPA of 3.63
 
 
-
-**High School Diploma, Liberal Arts and Sciences**<br>
-*Kuen Cheng High School*<br>
-*Jan 2017 – Mar 2022*
+**Kuen Cheng High School | Jan 2017 – Mar 2022** <br>
+*High School Diploma, Liberal Arts and Sciences*<br>
 
 
 #### 💼 Professional & Leadership Experience
 
-**Vice Head of Finance**<br>
-*INTI Sales Support Team*<br>
-*Sept 2023 – Jul 2024*
-- idk
+**INTI Sales Support Team (ISST)** <br>
+*Vice Head of Finance | Sept 2023 – Jul 2024* <br>
+o	Managed and streamlined the monthly claims process for over 40 ISST members.
+o	Prepared financial reports and Excel spreadsheets for monthly claims analysis.
+o	Logged monthly claims using Sandfil, ensuring accurate processing for bank transfers.
+o	Delivered finance claims briefings and provided onboarding guidance to new recruits.
+o	Conducted and participated in interviews for recruitment, probation evaluations, and performance 
 
-
-
-**Student Helper**<br>
-*INTI Sales Support Team*<br>
-*Apr 2023 – Sept 2023*
-- idk
+*Student Helper | Apr 2023 – Sept 2023* <br>
+o	Performed data entry tasks using Salesforce and Microsoft Forms, meeting a KPI of 15 entries per hour.
+o	Executed cold-calling to harvest, rescue, and validate prospective leads, meeting a KPI of 5 per hour.
+o	Collaborated in planning and execution of 850 participants events, serving as a PSC and event crew.
+o	Conducted campus tours for prospective students during open days and regular office hour.
 
 
 
