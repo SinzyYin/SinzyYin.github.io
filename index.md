@@ -95,8 +95,8 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 
 
 #### <ins> Audited Certificates </ins>
-- **Marketing Analytics**, University of Virginia on Coursera | July 2024
-- **Excel Basics for Data Analysis**, IBM on Coursera | June 2024
+- Marketing Analytics, University of Virginia on Coursera | July 2024
+- Excel Basics for Data Analysis, IBM on Coursera | June 2024
 
 
 
