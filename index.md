@@ -33,7 +33,7 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 <br>
 
 
-##### <ins> Relevant Coursework </ins>
+#### <ins> Relevant Coursework </ins>
 **Concept Development and Copywriting**
 - Developed creative briefs based on customer insights and research, defining USPs and creating marketing campaigns with mock-ups using Canva. <br>
 
