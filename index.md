@@ -35,11 +35,11 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 
 ##### Relevant Coursework
 **Concept Development and Copywriting**
-- Developed creative briefs based on customer insights and research, defining USPs and creating marketing campaigns with mock-ups using Canva.
+- Developed creative briefs based on customer insights and research, defining USPs and creating marketing campaigns with mock-ups using Canva. <br>
 **Business of Media**
-- Analysed the media industry and developed a business plan by using SWOT analysis, and identifying trends, key players, and strategic opportunities.
+- Analysed the media industry and developed a business plan by using SWOT analysis, and identifying trends, key players, and strategic opportunities. <br>
 **Media Content Creation **
-- Captured and produced audio, photos, and videos using smartphones, DSLR camera and Adobe tools (Audition, Premiere Pro, Lightroom), applying lighting, framing, composition, and storytelling techniques.
+- Captured and produced audio, photos, and videos using smartphones, DSLR camera and Adobe tools (Audition, Premiere Pro, Lightroom), applying lighting, framing, composition, and storytelling techniques. <br>
 **Marketing Research and Analytics**
 - Developed a research brief and survey and then cleaned and coded the gathered data in Excel for analysis.
 - Conducted descriptive statistics (frequency distribution, central tendency, dispersion) and statistical tests (Correlation, T-Test, ANOVA) in Excel, and presented findings with visualized results in research reports. <br>
@@ -65,18 +65,16 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 - Conducted campus tours for prospective students during open days and regular office hour.
 
 
-**Club Secretary**<br>
-*Inti Subang eSports Club*<br>
-*Dec 2022 – Oct 2023*
+**Inti Subang eSports Club**
+*Club Secretary* | Dec 2022 – Oct 2023 
 - Managed and maintained comprehensive club records, including meeting minutes and event documentation.
 - Oversaw the planning, coordination, and execution of team meetings, events, and competitions.
 - Prepared detailed meeting agendas and facilitated meetings as needed.
 - Led the organization and implementation of club activities, fostering member engagement and participation.
 
 
-**Part-Time Learning Center Educator**<br>
-*MRC Kids*<br>
-*Jun 2022 – Sep 2022*<br>
+ **MRC Kids**
+*Temporary Part-Time Learning Centre Educator* | Jun 2022 – Sep 2022
 - Managed and oversaw classroom activities, ensuring student engagement and minimizing disruptions.
 - Responded promptly to requests from students and staff, effectively multitasking in a fast-paced environment.
 - Coordinated transitions between activities, ensuring lessons were delivered on schedule.
