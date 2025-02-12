@@ -1,13 +1,10 @@
 #### Directory
-
----
-
 ###### [Homepage]() &nbsp; [Linkedin Updates]() &nbsp; [Learning Milestones]() &nbsp;
 
 ###### [Data Analysis & Visualization]() &nbsp;
 <br><br>
 
----
+_______
 
 ### About Me
 <br>
