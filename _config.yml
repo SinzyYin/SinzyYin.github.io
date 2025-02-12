@@ -38,7 +38,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <a href="pdf/resume.pdf" style="color: black;" target="_blank" rel="noopener noreferrer">
     My Resume
   </a>
-  <br><br><br><br>
+  <br>
   
 remote_theme: pages-themes/minimal@v0.2.0
 plugins:
