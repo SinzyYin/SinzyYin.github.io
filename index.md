@@ -10,8 +10,9 @@
 ---
 
 ### About Me
+<br>
 
-Nice to meet you 😃 <br><br>
+Nice to meet you 😃 <br>
 I am Sin Yin, a Final Year student studying in INTI International College Subang, pursuing Bachelor of Media and Communication 3+0 in collaborations with Swinburne University of Technology.
 <br><br>
 
