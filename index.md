@@ -16,7 +16,7 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 <br><br>
 
 
-#### <ins> 🎓 Education </ins>
+#### 🎓 Education
 **Swinburne University of Technology** | July 2023 – Feb 2026
 *Bachelor of Media & Communication (CGPA 3.07)*
 - Major in Advertising and Social Media; Minor in Digital Marketing
@@ -31,7 +31,7 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 <br>
 
 
-#### <ins> Relevant Coursework </ins>
+#### Relevant Coursework
 **Concept Development and Copywriting**
 - Developed creative briefs based on customer insights and research, defining USPs and creating marketing campaigns with mock-ups using Canva. <br>
 
@@ -49,7 +49,7 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 
 
 
-#### <ins> 💼 Professional & Leadership Experience </ins>
+#### 💼 Professional & Leadership Experience
 
 **INTI Sales Support Team (ISST)** <br>
 *Vice Head of Finance | Sept 2023 – Jul 2024* <br>
@@ -83,7 +83,7 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 
 ---
 
-#### <ins> Skills </ins>
+#### Skills
 - Data analysis in Excel (descriptive statistics, correlation, T-Test, ANOVA)
 - Adobe Creative Suite (Audition, Premiere Pro, Lightroom)
 - CRM tools (Salesforce, Microsoft Forms)
@@ -94,7 +94,7 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 <br>
 
 
-#### <ins> Audited Certificates </ins>
+#### Audited Certificates
 - Marketing Analytics, University of Virginia on Coursera | July 2024
 - Excel Basics for Data Analysis, IBM on Coursera | June 2024
 
