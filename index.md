@@ -63,8 +63,8 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 - Led the organization and implementation of club activities, fostering member engagement and participation.
 
 
- **MRC Kids** <br>
-*Temporary Part-Time Learning Centre Educator* | Jun 2022 – Sep 2022
+**MRC Kids** <br>
+*Part-Time Learning Centre Educator* | Jun 2022 – Sep 2022
 - Managed and oversaw classroom activities, ensuring student engagement and minimizing disruptions.
 - Responded promptly to requests from students and staff, effectively multitasking in a fast-paced environment.
 - Coordinated transitions between activities, ensuring lessons were delivered on schedule.
