@@ -45,13 +45,13 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 - Prepared financial reports and Excel spreadsheets for monthly claims analysis.
 - Logged monthly claims using Sandfil, ensuring accurate processing for bank transfers.
 - Delivered finance claims briefings and provided onboarding guidance to new recruits.
-- Conducted and participated in interviews for recruitment, probation evaluations, and performance 
+- Conducted and participated in interviews for recruitment, probation evaluations, and performance <br>
 
 *Student Helper | Apr 2023 – Sept 2023* <br>
 - Performed data entry tasks using Salesforce and Microsoft Forms, meeting a KPI of 15 entries per hour.
 - Executed cold-calling to harvest, rescue, and validate prospective leads, meeting a KPI of 5 per hour.
 - Collaborated in planning and execution of 850 participants events, serving as a PSC and event crew.
-- Conducted campus tours for prospective students during open days and regular office hour.
+- Conducted campus tours for prospective students during open days and regular office hour. <br>
 
 
 **Inti Subang eSports Club** <br>
@@ -59,14 +59,14 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 - Managed and maintained comprehensive club records, including meeting minutes and event documentation.
 - Oversaw the planning, coordination, and execution of team meetings, events, and competitions.
 - Prepared detailed meeting agendas and facilitated meetings as needed.
-- Led the organization and implementation of club activities, fostering member engagement and participation.
+- Led the organization and implementation of club activities, fostering member engagement and participation. <br>
 
 
 **MRC Kids** <br>
 *Part-Time Learning Centre Educator* | Jun 2022 – Sep 2022
 - Managed and oversaw classroom activities, ensuring student engagement and minimizing disruptions.
 - Responded promptly to requests from students and staff, effectively multitasking in a fast-paced environment.
-- Coordinated transitions between activities, ensuring lessons were delivered on schedule.
+- Coordinated transitions between activities, ensuring lessons were delivered on schedule. <br>
 
 #### Skills
 - Data analysis in Excel (descriptive statistics, correlation, T-Test, ANOVA)
