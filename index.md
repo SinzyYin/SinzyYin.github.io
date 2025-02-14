@@ -1,7 +1,7 @@
 #### Directory
-###### [Homepage](index.md) &nbsp; [Linkedin Updates]() &nbsp; [Learning Milestones]() &nbsp;
+###### [Homepage](index.md) &nbsp; [Linkedin Updates]() &nbsp; [Learning Milestones](learningmilestones.md) &nbsp;
 
-###### [Data Analysis & Visualization]() &nbsp; [Photography]() &nbsp; <br>
+###### My Portfolios: [Photography](photography.md) &nbsp; [Data Analysis & Visualization]() &nbsp; [What I Would Do Blog]() &nbsp;
 
 
 #### About Me
