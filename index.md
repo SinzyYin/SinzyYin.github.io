@@ -1,10 +1,8 @@
 #### Directory
-###### [Homepage]() &nbsp; [Linkedin Updates]() &nbsp; [Learning Milestones]() &nbsp;
+###### [Homepage](index.md) &nbsp; [Linkedin Updates]() &nbsp; [Learning Milestones]() &nbsp;
 
-###### [Data Analysis & Visualization]() &nbsp;
+###### [Data Analysis & Visualization]() &nbsp; [Photography]() &nbsp; <br>
 
-
-_______
 
 #### About Me
 
@@ -78,8 +76,8 @@ I am Sin Yin, a Final Year student studying in INTI International College Subang
 - Financial reporting and claims processing (Sandfil)
 
 #### Audited Certificates
-- Marketing Analytics, University of Virginia on Coursera | July 2024
-- Excel Basics for Data Analysis, IBM on Coursera | June 2024
+Marketing Analytics, University of Virginia on Coursera | July 2024
+Excel Basics for Data Analysis, IBM on Coursera | June 2024
 
 
 
