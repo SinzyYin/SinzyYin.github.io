@@ -60,8 +60,8 @@ a::after {
     position: absolute;
     bottom: -1px; /* Position slightly below text */
     left: 0;
-    opacity: 0; /* Initially hidden */
-    transition: opacity 0.3s ease; /* Fade-in effect for underline */
+    opacity: 0.2; /* Make the underline faint and visible by default */
+    transition: opacity 0.3s ease; /* Fade effect for underline when hovered */
 }
 
 /* Hover effect */
@@ -69,9 +69,9 @@ a:hover {
     font-weight: 400; /* Slightly bolder text on hover */
 }
 
-/* Show underline on hover */
+/* Show underline with increased opacity on hover */
 a:hover::after {
-    opacity: 1; /* Make underline visible */
+    opacity: 1; /* Make underline fully visible on hover */
 }
 
 /* Active state (clicked link) */
