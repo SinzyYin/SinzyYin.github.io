@@ -7,8 +7,13 @@
 #### About Me
 
 Nice to meet you 😃 <br>
-I am Sin Yin, a Final Year student studying in INTI International College Subang, pursuing Bachelor of Media and Communication 3+0 in collaborations with Swinburne University of Technology.
+I'm Sin Yin, a passionate final-year Media and Communications student at INTI International College Subang, in collaboration with Swinburne University of Technology.
 <br>
+With hands-on experience in marketing research, data analysis, event coordination, and content creation, "I am passionate about the technical side of media industry, particularly in research and data-driven strategies. What excites me most is the intersection of data and creativity. With a sharp eye for data and a knack for strategic thinking, I’m eager to tackle challenges with fresh, actionable strategies that deliver results.
+<br>
+Looking forward to start my journey as a entry-level marketing role in a dynamic environment in February 2026!
+<br>
+
 
 
 #### 🎓 Education
