@@ -46,7 +46,7 @@ a {
     text-decoration: none !important; /* Remove default underline */
     position: relative !important; /* Needed for the custom underline effect */
     font-weight: 300 !important; /* Regular weight */
-    transition: font-weight 0.2s ease !important; /* Smooth transition for weight change */
+    transition: font-weight 0.2s ease !important, transform 0.3s ease !important; /* Smooth transition for weight change and transform */
 }
 
 /* Faint underline effect */
@@ -65,15 +65,14 @@ a::after {
 
 /* Hover effect */
 a:hover {
-    font-weight: 450 !important; /* Slightly bolder text on hover */
+    font-weight: 400 !important; /* Slightly bolder text on hover */
     color: #403f1a !important; /* Change color on hover for a more chic look */
-    transform: scale(1.05) !important; /* Slight scale up for modern touch */
+    transform: scale(1.05) translateX(5px) !important; /* Slight scale up and move text to the right */
 }
 
 /* Show underline with increased opacity on hover */
 a:hover::after {
     opacity: 1 !important; /* Make underline fully visible on hover */
-    transform: scaleX(1.1) !important; /* Slight horizontal stretch for underline effect */
 }
 
 /* Active state (clicked link) */
@@ -83,7 +82,6 @@ a:active {
 }
 
 
-
 /* Italic Text */
 .em {
     font-style: italic !important;
@@ -91,12 +89,12 @@ a:active {
 
 /* Bold Text */
 .strong {
-    font-weight: 500 !important;
+    font-weight: 400 !important;
 }
 
 /* Bold and Italic Text */
 .strong.em {
-    font-weight: 500 !important;
+    font-weight: 400 !important;
     font-style: italic !important;
 }
 
