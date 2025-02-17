@@ -41,47 +41,44 @@ body {
     background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%) !important; /* Gradient background */
 }
 
-/* Default link styles */
 a {
     color: #403f1a !important; /* Same color as body text */
     text-decoration: none !important; /* Remove default underline */
-    position: relative; /* Needed for the custom underline effect */
-    font-weight: 300; /* Regular weight */
-    font-size: 1rem; /* Slightly larger font size for elegance */
-    letter-spacing: 0.5px; /* Subtle letter-spacing for sophistication */
-    transition: color 0.3s ease, font-weight 0.2s ease, transform 0.3s ease; /* Smooth transitions for color, weight, and scale */
+    position: relative !important; /* Needed for the custom underline effect */
+    font-weight: 300 !important; /* Regular weight */
+    transition: font-weight 0.2s ease !important; /* Smooth transition for weight change */
 }
 
 /* Faint underline effect */
 a::after {
-    content: ""; /* Empty content to create underline */
-    display: block;
-    width: 100%;
-    height: 1px; /* Thin underline */
-    background-color: rgba(10, 10, 10, 0.1); /* Very faint underline by default */
-    position: absolute;
-    bottom: -2px; /* Position slightly below text */
-    left: 0;
-    opacity: 0.5; /* Subtle opacity for underline */
-    transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition for underline opacity */
+    content: "" !important; /* Empty content to create underline */
+    display: block !important;
+    width: 100% !important;
+    height: 1px !important; /* Thin underline */
+    background-color: rgba(10, 10, 10, 0.3) !important; /* Higher opacity underline */
+    position: absolute !important;
+    bottom: -2px !important; /* Position slightly below text */
+    left: 0 !important;
+    opacity: 0.5 !important; /* Make the underline faint and visible by default */
+    transition: opacity 0.3s ease !important, transform 0.3s ease !important; /* Smooth transition for underline opacity */
 }
 
 /* Hover effect */
 a:hover {
-    font-weight: 500; /* Slightly bolder text on hover */
-    color: #6f5e3e !important; /* Change color on hover for a more chic look */
-    transform: scale(1.05); /* Slight scale up for modern touch */
+    font-weight: 450 !important; /* Slightly bolder text on hover */
+    color: #403f1a !important; /* Change color on hover for a more chic look */
+    transform: scale(1.05) !important; /* Slight scale up for modern touch */
 }
 
 /* Show underline with increased opacity on hover */
 a:hover::after {
-    opacity: 1; /* Make underline fully visible on hover */
-    transform: scaleX(1.1); /* Slight horizontal stretch for underline effect */
+    opacity: 1 !important; /* Make underline fully visible on hover */
+    transform: scaleX(1.1) !important; /* Slight horizontal stretch for underline effect */
 }
 
 /* Active state (clicked link) */
 a:active {
-    font-weight: 500; /* Slightly bolder text when clicked */
+    font-weight: 500 !important; /* Slightly bolder text when clicked */
     color: #403f1a !important; /* Keep color the same when clicked */
 }
 
