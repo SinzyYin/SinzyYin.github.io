@@ -46,6 +46,8 @@ a {
     color: #403f1a !important; /* Same color as body text */
     text-decoration: none !important; /* Remove default underline */
     position: relative; /* Needed for the custom underline effect */
+    font-weight: 300; /* Regular weight */
+    transition: font-weight 0.2s ease; /* Smooth transition for weight change */
 }
 
 /* Faint underline effect */
@@ -58,6 +60,23 @@ a::after {
     position: absolute;
     bottom: -1px; /* Position slightly below text */
     left: 0;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.3s ease; /* Fade-in effect for underline */
+}
+
+/* Hover effect */
+a:hover {
+    font-weight: 400; /* Slightly bolder text on hover */
+}
+
+/* Show underline on hover */
+a:hover::after {
+    opacity: 1; /* Make underline visible */
+}
+
+/* Active state (clicked link) */
+a:active {
+    font-weight: 400; /* Slightly bolder text when clicked */
 }
 
 
