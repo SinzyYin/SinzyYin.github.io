@@ -1,4 +1,4 @@
-title: <a href="index.md" class="title-link">Sin Yin</a> # your name (or website title) here
+title: <a href="index.md" id="title-link">Sin Yin</a> # your name (or website title) here
 logo: "/images/logo.jpg?raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br><br>
