@@ -81,21 +81,29 @@ a:active {
     color: #403f1a !important; /* Keep color the same when clicked */
 }
 
-/* Italic Text */
+/* Italic Text - Minimal & Chic */
 body .em {
     font-style: italic !important;
+    opacity: 0.9 !important; /* Slight transparency for a softer look */
+    transition: opacity 0.2s ease-in-out !important;
 }
 
-/* Bold Text */
+/* Bold Text - Sleek & Refined */
 body .strong {
-    font-weight: 330 !important;
+    font-weight: 340 !important; /* Slightly refined weight for elegance */
+    letter-spacing: 0.02em !important; /* Subtle spacing for readability */
+    transition: font-weight 0.2s ease-in-out !important;
 }
 
-/* Bold and Italic Text */
+/* Bold and Italic Text - Balanced Elegance */
 body .strong.em {
-    font-weight: 330 !important;
+    font-weight: 340 !important;
     font-style: italic !important;
+    opacity: 0.9 !important;
+    letter-spacing: 0.02em !important;
+    transition: font-weight 0.2s ease-in-out !important, opacity 0.2s ease-in-out !important;
 }
+
 
 
 /* Adjusts spacing for list items */
