@@ -37,8 +37,10 @@ body {
     line-height: 1.5 !important; /* Increased line-height for better readability */
     color: #403f1a !important;
     font-size: 0.9rem !important;
-    background-color: #fdfcfb !important; /* Fallback color */
-    background-image: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%) !important; /* Gradient background */
+    background-color: hsla(78, 16%, 64%, 1) !important; /* New background color */
+    background-image: 
+        radial-gradient(at 89% 26%, hsla(45, 69%, 89%, 1) 0px, transparent 50%),
+        radial-gradient(at 92% 81%, hsla(41, 100%, 95%, 1) 0px, transparent 50%) !important; /* New background image */
 }
 
 /* Default link styles */
@@ -60,7 +62,7 @@ a::after {
     position: absolute;
     bottom: -1px; /* Position slightly below text */
     left: 0;
-    opacity: 0.2; /* Make the underline faint and visible by default */
+    opacity: 0.5; /* Make the underline faint and visible by default */
     transition: opacity 0.3s ease; /* Fade effect for underline when hovered */
 }
 
@@ -78,7 +80,6 @@ a:hover::after {
 a:active {
     font-weight: 400; /* Slightly bolder text when clicked */
 }
-
 
 
 /* Italic Text */
