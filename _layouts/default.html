@@ -40,15 +40,9 @@ body {
     background-color: #f3f1ea !important; /* Website background color */
 }
 
-/* Black link styles */
-.black-link {
-    color: #403f1a !important;
-    text-decoration: none !important; /* Optional: removes underline */
-}
-
 /* Default link styles */
 a {
-    color: #0A0A0A !important; /* Same color as body text */
+    color: #403f1a !important; /* Same color as body text */
     text-decoration: none !important; /* Remove default underline */
     position: relative; /* Needed for the custom underline effect */
 }
@@ -59,7 +53,7 @@ a::after {
     display: block;
     width: 100%;
     height: 1px; /* Thin underline */
-    background-color: rgba(10, 10, 10, 0.2); /* Low-opacity underline */
+    background-color: rgba(10, 10, 10, 0.1); /* Even lower opacity underline */
     position: absolute;
     bottom: -1px; /* Position slightly below text */
     left: 0;

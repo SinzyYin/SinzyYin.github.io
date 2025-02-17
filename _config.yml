@@ -17,7 +17,7 @@ description: > # your text below (remove <br> elements if you don't need line br
     src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" 
     alt="LinkedIn Logo" 
     style="height:15px; margin-right:3px; vertical-align:middle;" />
-  <a href="https://www.linkedin.com/in/yapsinyin/" style="color: black;" target="_blank" rel="noopener noreferrer">
+  <a href="https://www.linkedin.com/in/yapsinyin/" style="color: #403f1a;" target="_blank" rel="noopener noreferrer">
     LinkedIn Profile
   </a>
   <br>
@@ -26,7 +26,7 @@ description: > # your text below (remove <br> elements if you don't need line br
     src="https://img.icons8.com/?size=100&id=12599&format=png&color=000000" 
     alt="GitHub Logo" 
     style="height:15px; margin-right:3px; vertical-align:middle;" />
-  <a href="https://github.com/SinzyYin" style="color: black;" target="_blank" rel="noopener noreferrer">
+  <a href="https://github.com/SinzyYin" style="color: #403f1a;" target="_blank" rel="noopener noreferrer">
     GitHub Profile
   </a>
   <br>
@@ -35,7 +35,7 @@ description: > # your text below (remove <br> elements if you don't need line br
     src="https://img.icons8.com/?size=100&id=86983&format=png&color=000000" 
     alt="Resume Logo" 
     style="height:15px; margin-right:3px; vertical-align:middle;" />
-  <a href="pdf/resume.pdf" style="color: black;" target="_blank" rel="noopener noreferrer">
+  <a href="pdf/resume.pdf" style="color: #403f1a;" target="_blank" rel="noopener noreferrer">
     My Resume
   </a>
   <br>
