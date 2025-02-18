@@ -145,6 +145,17 @@ layout: default
             font-size: 0.8rem; /* Slightly smaller text */
             padding-top: 
         }
+        
+        /* Remove underline for dropdown items */
+        .dropdown-content a::after {
+            display: none !important;
+        }
+
+        /* Add a light hover background for dropdown items */
+        .dropdown-content a:hover {
+            background: rgba(64, 63, 26, 0.1);
+            border-radius: 4px;
+        }
 
     </style>
     
