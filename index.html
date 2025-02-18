@@ -112,75 +112,38 @@ layout: default
             display: inline-block;
         }
 
-        /* Keep dropdown open when hovering over both trigger and menu */
+        /* Navigation container - Compact */
+        .nav-container {
+            display: flex;
+            align-items: center;
+            gap: 15px; /* Reduce spacing between items */
+            font-size: 0.85rem; /* Smaller font */
+            font-family: "Lora", serif;
+            padding: 5px 0; /* Reduce padding */
+        }
+
+        /* Dropdown container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Keep dropdown open when hovering */
         .dropdown:hover .dropdown-content {
             display: flex;
         }
 
-        /* Dropdown menu */
+        /* Dropdown menu - More compact */
         .dropdown-content {
             display: none;
             position: absolute;
-            top: 20px;
+            top: 25px; /* Move dropdown slightly up */
             left: 0;
             background: transparent;
             flex-direction: column;
-            gap: 5px;
-            font-size: 0.7rem;
-            padding-top: 5px;
-            white-space: nowrap;
-        }
-
-        /* Link styles */
-        .nav-container a {
-            color: #403f1a !important;
-            text-decoration: none !important;
-            position: relative !important;
-            font-weight: 300 !important;
-            transition: font-weight 0.2s ease, transform 0.3s ease !important;
-            padding: 5px 10px;
-            display: inline-block; /* Ensures underline matches text width */
-        }
-
-        /* Underline effect with matching text length */
-        .nav-container a::after {
-            content: "" !important;
-            display: block !important;
-            width: 100% !important; /* Matches text width */
-            height: 1px !important;
-            background-color: rgba(10, 10, 10, 0.3) !important;
-            position: absolute !important;
-            bottom: -2px !important;
-            left: 0 !important;
-            opacity: 0.5 !important;
-            transition: opacity 0.3s ease, transform 0.3s ease !important;
-        }
-
-        /* Hover effect */
-        .nav-container a:hover {
-            font-weight: 450 !important;
-            color: #2b2b12 !important;
-            transform: scale(1.05) !important;
-        }
-
-        .nav-container a:hover::after {
-            opacity: 1 !important;
-        }
-
-        .nav-container a:active {
-            font-weight: 500 !important;
-            color: #403f1a !important;
-        }
-
-        /* Remove underline for dropdown items */
-        .dropdown-content a::after {
-            display: none !important;
-        }
-
-        /* Add a light hover background for dropdown items */
-        .dropdown-content a:hover {
-            background: rgba(64, 63, 26, 0.1);
-            border-radius: 4px;
+            gap: 6px; /* Reduce spacing between dropdown items */
+            font-size: 0.8rem; /* Slightly smaller text */
+            padding-top: 
         }
 
     </style>
