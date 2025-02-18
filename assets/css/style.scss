@@ -7,8 +7,11 @@
 $primary-font: 'DM Sans', 'Arial', 'Helvetica Neue', sans-serif;
 $heading-font: 'Lora', 'Georgia', 'Times New Roman', serif;
 $primary-color: #403f1a;
-$background-color: #fbffe4;
-$background-gradient: linear-gradient(to right bottom, #a3d1c6, #a3d3c2, #a4d5bd, #a7d6b7, #abd7b1, #b4dab2, #bedeb3, #c7e1b5, #d5e8c0, #e2f0cb, #eff7d7, #fbffe4);
+$background-color: #d3dcc8;
+$background-gradient: linear-gradient(to right bottom, 
+    #dce3d3, #dee4d5, #e0e5d7, #e1e7d9, #e3e8db, 
+    #e2e7da, #e2e7d9, #e1e6d8, #dee3d4, #dae1d0, 
+    #d7decc, #d3dcc8);
 
 body {
     font-family: $primary-font !important;
