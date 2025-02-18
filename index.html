@@ -27,6 +27,71 @@ layout: default
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
+   <style>
+    body {
+        font-family: 'DM Sans', sans-serif;
+        background-color: #fff;
+        color: #403f1a;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    .about-me {
+        background: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%);
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        max-width: 700px;
+        margin: 40px auto;
+        color: #403f1a;
+    }
+
+    .about-me h2 {
+        font-family: 'Lora', serif;
+        font-size: 1.8rem;
+        font-weight: 400;
+        position: relative;
+        display: inline-block;
+        padding-bottom: 8px;
+    }
+
+    /* More opaque underline */
+    .about-me h2::after {
+        content: "";
+        display: block;
+        width: 60%;
+        height: 2px;
+        background-color: rgba(128, 128, 128, 0.7);
+        margin: 10px auto 0;
+    }
+
+    .about-me p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        font-weight: 300;
+        padding: 10px 0;
+    }
+
+    /* Subtle highlight styles */
+    .highlight {
+        font-weight: 500;
+        color: #7a4e22;
+    }
+
+    .highlight-bg {
+        font-weight: 500;
+        color: #6c4f3d;
+        background: rgba(108, 79, 61, 0.1);
+        padding: 2px 5px;
+        border-radius: 4px;
+    }
+
+    </style>
     
    <title>Portfolio - Sin Yin</title>
 </head>
@@ -48,6 +113,29 @@ layout: default
 
     <br>
 
+    <div class="about-me">
+        <h2>About Me</h2>
+        <p>
+            Nice to meet you 😃  
+            <br><br>
+            I'm <span class="highlight">Sin Yin</span>, a final-year media and communications student at 
+            <span class="highlight">INTI International College Subang</span>, in collaboration with 
+            <span class="highlight">Swinburne University of Technology</span>.  
+            <br><br>
+            With hands-on experience in <span class="highlight-bg">marketing research</span>, 
+            <span class="highlight-bg">data analysis</span>, <span class="highlight-bg">event coordination</span>, 
+            and <span class="highlight-bg">content creation</span>, I am passionate about the 
+            <span class="highlight">technical side of the media industry</span>, particularly in research and 
+            data-driven strategies.  
+            <br><br>
+            What excites me most is the <em>intersection of data and creativity</em>. With a sharp eye for data 
+            and a knack for strategic thinking, I’m eager to tackle challenges with fresh, actionable 
+            strategies that deliver results.  
+            <br><br>
+            Looking forward to starting my journey in an <span class="highlight">entry-level marketing role</span> in a 
+            <span class="highlight">dynamic environment</span> in <span class="highlight-bg">February 2026</span>!
+        </p>
+    </div>
     
     <br>
 
