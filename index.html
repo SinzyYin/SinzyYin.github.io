@@ -96,22 +96,6 @@ layout: default
             border-radius: 4px;
         }
 
-        /* Navigation container */
-        .nav-container {
-            display: flex;
-            align-items: center;
-            gap: 20px;
-            font-size: 0.9rem;
-            font-family: "Lora", serif;
-            padding: 10px 0;
-        }
-
-        /* Dropdown container */
-        .dropdown {
-            position: relative;
-            display: inline-block;
-        }
-
         /* Navigation container - Compact */
         .nav-container {
             display: flex;
@@ -128,24 +112,26 @@ layout: default
             display: inline-block;
         }
 
-        /* Keep dropdown open when hovering */
-        .dropdown:hover .dropdown-content {
-            display: flex;
-        }
-
-        /* Dropdown menu - More compact */
+        /* Dropdown menu - Stay open on hover */
         .dropdown-content {
             display: none;
             position: absolute;
-            top: 25px; /* Move dropdown slightly up */
+            top: 100%; /* Align exactly below the trigger */
             left: 0;
             background: transparent;
             flex-direction: column;
             gap: 6px; /* Reduce spacing between dropdown items */
             font-size: 0.8rem; /* Slightly smaller text */
-            padding-top: 
+            min-width: 160px; /* Prevent collapsing */
+            padding-top: 5px;
         }
-        
+
+        /* Ensure dropdown stays open when hovering over both */
+        .dropdown:hover .dropdown-content,
+        .dropdown-content:hover {
+            display: flex;
+        }
+
         /* Remove underline for dropdown items */
         .dropdown-content a::after {
             display: none !important;
