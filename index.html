@@ -31,7 +31,7 @@ layout: default
         /* Minimal & Chic Styling */
         body {
             font-family: 'DM Sans', sans-serif;
-            background-color: #fcfbf9;
+            background-color: #f6f8f4;
             color: #2b2b12;
             margin: 0;
             padding: 0;
@@ -39,16 +39,17 @@ layout: default
             justify-content: center;
             align-items: center;
             height: 100vh;
-            font-size: 0.9rem; /* Adjusted font size */
         }
 
         .about-me {
-            background: #ffffff;
+            background: linear-gradient(135deg, #eaf2e3 0%, #c8d8c5 100%);
             padding: 30px;
-            border-radius: 12px;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
-            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
             text-align: center;
+            max-width: 700px;
+            margin: 40px auto;
+            color: #37492d;
         }
 
         .about-me h2 {
@@ -57,32 +58,49 @@ layout: default
             font-weight: 500;
             margin-bottom: 12px;
             color: #2b2b12;
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Soft underline under "About Me" */
+        .about-me h2::after {
+            content: "";
+            display: block;
+            width: 50%;
+            height: 2px;
+            background-color: #5b7553;
+            margin: 5px auto 0;
         }
 
         .about-me p {
-            font-size: 0.9rem; /* Ensuring consistency */
+            font-size: 0.9rem;
             line-height: 1.6;
             font-weight: 300;
-            color: #403f1a;
+            color: #37492d;
         }
 
         /* Subtle emphasis styling */
         .highlight {
             font-weight: 500;
-            color: #6c4f3d;
+            color: #5b7553;
         }
 
         .highlight-italic {
             font-style: italic;
-            color: #5e3a13;
+            color: #495a41;
         }
 
-        .highlight-underline {
-            text-decoration: underline;
+        /* Special formatting for "February 2026" */
+        .highlight-box {
+            background: #d8e4d0;
+            padding: 2px 8px;
+            border-radius: 5px;
             font-weight: 500;
+            color: #37492d;
         }
+
     </style>
-   
+    
    <title>Portfolio - Sin Yin</title>
 </head>
 
@@ -123,7 +141,7 @@ layout: default
             actionable strategies that deliver results.  
             <br><br>
             Looking forward to starting my journey in an <span class="highlight">entry-level marketing role</span> in a 
-            <span class="highlight">dynamic environment</span> in <span class="highlight-underline">February 2026</span>!
+            <span class="highlight">dynamic environment</span> in <span class="highlight-box">February 2026</span>!
         </p>
     </div>
     
