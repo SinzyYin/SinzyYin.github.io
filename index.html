@@ -95,25 +95,115 @@ layout: default
             padding: 2px 5px;
             border-radius: 4px;
         }
+
+        /* Navigation container */
+        .nav-container {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-size: 1rem;
+            font-family: "Lora", serif;
+            padding: 10px 0;
+        }
+
+        /* Dropdown container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Keep dropdown open when hovering over both trigger and menu */
+        .dropdown:hover .dropdown-content {
+            display: flex;
+        }
+
+        /* Dropdown menu */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            top: 30px;
+            left: 0;
+            background: transparent;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 0.85rem;
+            padding-top: 5px;
+            white-space: nowrap;
+        }
+
+        /* Link styles */
+        .nav-container a {
+            color: #403f1a !important;
+            text-decoration: none !important;
+            position: relative !important;
+            font-weight: 300 !important;
+            transition: font-weight 0.2s ease, transform 0.3s ease !important;
+            padding: 5px 10px;
+            display: inline-block; /* Ensures underline matches text width */
+        }
+
+        /* Underline effect with matching text length */
+        .nav-container a::after {
+            content: "" !important;
+            display: block !important;
+            width: 100% !important; /* Matches text width */
+            height: 1px !important;
+            background-color: rgba(10, 10, 10, 0.3) !important;
+            position: absolute !important;
+            bottom: -2px !important;
+            left: 0 !important;
+            opacity: 0.5 !important;
+            transition: opacity 0.3s ease, transform 0.3s ease !important;
+        }
+
+        /* Hover effect */
+        .nav-container a:hover {
+            font-weight: 450 !important;
+            color: #2b2b12 !important;
+            transform: scale(1.05) !important;
+        }
+
+        .nav-container a:hover::after {
+            opacity: 1 !important;
+        }
+
+        .nav-container a:active {
+            font-weight: 500 !important;
+            color: #403f1a !important;
+        }
+
+        /* Remove underline for dropdown items */
+        .dropdown-content a::after {
+            display: none !important;
+        }
+
+        /* Add a light hover background for dropdown items */
+        .dropdown-content a:hover {
+            background: rgba(64, 63, 26, 0.1);
+            border-radius: 4px;
+        }
+
     </style>
     
    <title>Portfolio - Sin Yin</title>
 </head>
 
 <body>
-    <h4>Directory</h4>
-    <p>
-        <a href="index.md">Homepage</a> &nbsp; 
-        <a href="#">LinkedIn Updates</a> &nbsp; 
+    
+    <div class="nav-container">
+        <a href="index.md">Homepage</a>
+        <a href="#">LinkedIn Updates</a>
         <a href="learningmilestones.md">Learning Milestones</a>
-    </p>
-
-    <p>
-        My Portfolios: <br>
-        <a href="photography.md">Photography</a> | 
-        <a href="#">Data Analysis & Visualization</a> | 
-        <a href="#">What I Would Do Blog</a>
-    </p>
+    
+        <div class="dropdown">
+            <a href="#">My Portfolios</a>
+            <div class="dropdown-content">
+                <a href="photography.md">Photography</a>
+                <a href="#">Data Analysis & Visualization</a>
+                <a href="#">What I Would Do Blog</a>
+            </div>
+        </div>
+    </div>
 
     <br>
 
