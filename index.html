@@ -46,7 +46,7 @@ layout: default
         }
 
         /* Smaller heading */
-        .about-me h2 {
+        .about-me h5 {
             font-family: 'Lora', serif;
             font-size: 1rem; /* Smaller font size */
             font-weight: 400;
@@ -56,7 +56,7 @@ layout: default
         }
 
         /* More compact underline */
-        .about-me h2::after {
+        .about-me h5::after {
             content: "";
             display: block;
             width: 50%; /* Reduced width */
@@ -97,6 +97,12 @@ layout: default
             padding: 5px 0; /* Reduce padding */
             width: 100%; /* Ensures full width */
         }
+
+        /* If you want even spacing instead of filling the entire width */
+        .nav-container.even-spacing {
+            justify-content: space-evenly;
+        }
+
 
         /* Dropdown container */
         .dropdown {
@@ -164,7 +170,7 @@ layout: default
     <br>
 
     <div class="about-me">
-        <h2>Hi, I'm Sin Yin!</h2>
+        <h5>Hi, I'm Sin Yin!</h5>
         <p>
             <br><br>
             I'm a final-year <span class ="highlight"> media and communications</span> student at 
