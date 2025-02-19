@@ -87,22 +87,15 @@ layout: default
             border-radius: 3px; /* Slightly smaller border radius */
         }
 
-        /* Navigation container - Auto-spaced */
-        .nav-container {
+             /* Navigation container - Compact */
+             .nav-container {
             display: flex;
             align-items: center;
-            justify-content: space-between; /* Distributes items evenly */
+            gap: 15px; /* Reduce spacing between items */
             font-size: 0.85rem; /* Smaller font */
             font-family: "Lora", serif;
             padding: 5px 0; /* Reduce padding */
-            width: 100%; /* Ensures full width */
         }
-
-        /* If you want even spacing instead of filling the entire width */
-        .nav-container.even-spacing {
-            justify-content: space-evenly;
-        }
-
 
         /* Dropdown container */
         .dropdown {
@@ -172,7 +165,6 @@ layout: default
     <div class="about-me">
         <h5>Hi, I'm Sin Yin!</h5>
         <p>
-            <br><br>
             I'm a final-year <span class ="highlight"> media and communications</span> student at 
             <span class="highlight">INTI International College Subang</span>, in collaboration with 
             <span class="highlight">Swinburne University of Technology</span>.  
