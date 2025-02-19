@@ -28,34 +28,73 @@ layout: default
    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
    <style>
-        /* Smaller about-me container */
+        /* Global styles for body */
+        html, body {
+            font-family: 'DM Sans', sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        /* About Me container styling */
         .about-me {
-            max-width: 550px; /* Reduce width */
-            padding: 20px; /* Less padding */
-            border-radius: 8px; /* Slightly smaller rounded corners */
-            box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.08); /* Softer shadow */
-        }
+        background-color: #fff;
+        color: #403f1a;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        max-width: 500px;  /* Reduced max-width */
+        margin: 40px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;  /* Adjusted height to fit content */
+        flex-direction: column;
+         }
 
-        /* Smaller heading */
+
+        /* Heading styling */
         .about-me h2 {
-            font-size: 1.5rem; /* Reduce font size */
+            font-family: 'Lora', serif;
+            font-size: 1.5rem;
             font-weight: 400;
-            padding-bottom: 5px; /* Reduce spacing below */
+            position: relative;
+            display: inline-block;
+            padding-bottom: 8px;
         }
 
-        /* Adjust underline */
+        /* More opaque underline */
         .about-me h2::after {
-            width: 50%; /* Make underline shorter */
-            height: 1.5px; /* Slightly thinner */
+            content: "";
+            display: block;
+            width: 60%;
+            height: 2px;
+            background-color: rgba(128, 128, 128, 0.7);
+            margin: 10px auto 0;
         }
 
-        /* Paragraph adjustments */
+        /* Paragraph styling */
         .about-me p {
-            font-size: 0.85rem; /* Smaller text */
-            line-height: 1.5; /* Adjust line height */
-            padding: 8px 0;
+            font-size: 0.9rem;
+            line-height: 1.6;
+            font-weight: 300;
+            padding: 10px 0;
         }
 
+        /* Subtle highlight styles */
+        .highlight {
+            font-weight: 500;
+            color: #7a4e22;
+        }
+
+        .highlight-bg {
+            font-weight: 500;
+            color: #6c4f3d;
+            background: rgba(108, 79, 61, 0.1);
+            padding: 2px 5px;
+            border-radius: 4px;
+        }
 
         /* Navigation container - Compact */
         .nav-container {
@@ -112,18 +151,21 @@ layout: default
 <body>
     
     <div class="nav-container">
-        <a href="index.md">Homepage</a>
-        <a href="#">LinkedIn Updates</a>
-        <a href="learningmilestones.md">Learning Milestones</a>
+        <a href="index.html">About Me</a>
+        <a href="learningmilestones.html">Learning Milestones</a>
     
         <div class="dropdown">
             <a href="#">My Portfolios</a>
             <div class="dropdown-content">
-                <a href="photography.md">Photography</a>
+                <a href="#">Content Creation</a>
+                <a href="photography.html">Photography</a>
                 <a href="#">Data Analysis & Visualization</a>
-                <a href="#">What I Would Do Blog</a>
+                <a href="#">How I’d Do It Blog</a>
             </div>
         </div>
+    <div class="nav-container">
+        <a href="contact.html">Contact Me</a>
+    </div>
     </div>
 
     <br>
