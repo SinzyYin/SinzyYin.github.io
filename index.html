@@ -38,6 +38,7 @@ layout: default
             text-align: center;
             max-width: 400px; /* Reduced max width */
             margin: 30px auto; /* Smaller margin */
+            margin-top: 50px;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -87,14 +88,14 @@ layout: default
             border-radius: 3px; /* Slightly smaller border radius */
         }
 
-        /* Navigation container - Compact */
+            /* Navigation container - Compact */
         .nav-container {
-        display: flex;
-        align-items: center;
-        gap: 15px; /* Reduce spacing between items */
-        font-size: 0.85rem; /* Smaller font */
-        font-family: "Lora", serif;
-        padding: 5px 0; /* Reduce padding */
+            display: flex;
+            align-items: center;
+            gap: 15px; /* Reduce spacing between items */
+            font-size: 0.85rem; /* Smaller font */
+            font-family: "Lora", serif;
+            padding: 5px 0; /* Reduce padding */
         }
 
         /* Dropdown container */
@@ -103,24 +104,29 @@ layout: default
             display: inline-block;
         }
 
-        /* Dropdown menu - Stay open on hover */
+        /* Dropdown menu - Slow fade-in animation */
         .dropdown-content {
-            display: none;
+            display: flex;
+            flex-direction: column;
             position: absolute;
-            top: 100%; /* Align exactly below the trigger */
+            top: 110%; /* Move dropdown lower to avoid touching About Me */
             left: 0;
             background: transparent;
-            flex-direction: column;
             gap: 6px; /* Reduce spacing between dropdown items */
-            font-size: 0.8rem; /* Slightly smaller text */
-            min-width: 160px; /* Prevent collapsing */
+            font-size: 0.8rem;
+            min-width: 160px;
             padding-top: 5px;
+            opacity: 0;
+            transform: translateY(-10px); /* Initially move up slightly */
+            pointer-events: none; /* Prevent interaction before it appears */
+            transition: opacity 0.4s ease, transform 0.4s ease;
         }
 
-        /* Ensure dropdown stays open when hovering over both */
-        .dropdown:hover .dropdown-content,
-        .dropdown-content:hover {
-            display: flex;
+        /* Ensure dropdown stays open when hovering */
+        .dropdown:hover .dropdown-content {
+            opacity: 1;
+            transform: translateY(0); /* Moves to normal position smoothly */
+            pointer-events: auto;
         }
 
         /* Remove underline for dropdown items */
@@ -133,6 +139,7 @@ layout: default
             background: rgba(64, 63, 26, 0.1);
             border-radius: 4px;
         }
+
 
 
     </style>
