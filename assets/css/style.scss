@@ -4,14 +4,12 @@
 /* Global Styles */
 
 // Variables
-$primary-font: 'DM Sans', 'Arial', 'Helvetica Neue', sans-serif;
-$heading-font: 'Lora', 'Georgia', 'Times New Roman', serif;
-$primary-color: #3E3D19;
-$background-color: #d3dcc8;
-$background-gradient: linear-gradient(to right bottom, 
-    #dce3d3, #dee4d5, #e0e5d7, #e1e7d9, #e3e8db, 
-    #e2e7da, #e2e7d9, #e1e6d8, #dee3d4, #dae1d0, 
-    #d7decc, #d3dcc8);
+$primary-font: 'DM Sans', 'Arial', 'Helvetica Neue', sans-serif !important;
+$heading-font: 'Lora', 'Georgia', 'Times New Roman', serif !important;
+$primary-color: #32423B !important;
+$background-color: #fdfcfb !important;
+$background-gradient: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%) !important;
+
 
 body {
     font-family: $primary-font !important;
@@ -23,7 +21,10 @@ body {
     color: $primary-color !important;
     font-size: 0.9rem !important;
     background: $background-gradient !important;
-}
+    background-attachment: fixed !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;}
 
 a {
     color: $primary-color !important;
