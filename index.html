@@ -57,16 +57,15 @@ layout: default
             position: relative;
             padding-bottom: 8px;
             text-align: left;
-            
-            /* Gradient text */
-            background-image: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
+
+            /* Gradient Text */
+            background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            
-            /* Fallback color in case gradient isn't supported */
-            color: #5a4e69;
-        }
 
+            /* Fallback Color */
+            color: #616161;
+        }
 
         /* Underline Animation */
         .about-me h5::after {
@@ -74,7 +73,7 @@ layout: default
             display: block;
             width: 50px;
             height: 2px;
-            background-color: #a093b5; /* Muted purple */
+            background-color: #9bc5c3; /* Light teal from the gradient */
             margin-top: 4px;
             transition: width 0.3s ease-in-out;
         }
@@ -94,14 +93,14 @@ layout: default
         /* Highlight styles */
         .highlight {
             font-weight: 600;
-            color: #8a79a6; /* Slightly darker purple */
+            color: #9bc5c3; /* Light teal */
         }
 
         /* Background Highlight */
         .highlight-bg {
             font-weight: 500;
-            color: #5a4e69;
-            background: rgba(209, 200, 220, 0.3); /* Soft purple background */
+            color: #616161;
+            background: rgba(155, 197, 195, 0.3); /* Soft teal background */
             padding: 3px 6px;
             border-radius: 4px;
         }
@@ -110,8 +109,8 @@ layout: default
         .about-me .cta-button {
             margin-top: 15px;
             padding: 8px 14px;
-            background-color: #d1c8dc;
-            color: #403f1a;
+            background-color: #616161; /* Dark gray from the gradient */
+            color: #ffffff;
             font-size: 0.85rem;
             border-radius: 6px;
             text-decoration: none;
@@ -119,9 +118,10 @@ layout: default
         }
 
         .about-me .cta-button:hover {
-            background-color: #b8aabd;
-            color: #fff;
+            background-color: #9bc5c3; /* Light teal */
+            color: #ffffff;
         }
+
 
 
 
