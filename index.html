@@ -35,35 +35,38 @@ layout: default
             padding: 15px; /* Reduced padding */
             border-radius: 8px; /* Slightly smaller border radius */
             box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.08); /* Softer shadow */
-            text-align: center;
+            text-align: left; /* Align all text to the left */
             max-width: 400px; /* Reduced max width */
             margin: 30px auto; /* Smaller margin */
             margin-top: 50px;
             display: flex;
             justify-content: center;
-            align-items: center;
+            align-items: flex-start; /* Align items to the left */
             height: auto;
             flex-direction: column;
         }
 
-        /* Smaller heading */
+        /* Smaller heading aligned to the left */
         .about-me h5 {
             font-family: 'Lora', serif;
             font-size: 1rem; /* Smaller font size */
             font-weight: 400;
             position: relative;
-            display: inline-block;
+            display: block; /* Ensure full width */
             padding-bottom: 6px; /* Reduced padding */
+            text-align: left; /* Align text to the left */
         }
 
-        /* More compact underline */
+        /* Left-aligned underline */
         .about-me h5::after {
             content: "";
             display: block;
-            width: 50%; /* Reduced width */
+            width: 40%; /* Adjusted width */
             height: 1.5px; /* Thinner underline */
             background-color: rgba(128, 128, 128, 0.6);
-            margin: 8px auto 0; /* Adjusted margin */
+            position: absolute;
+            left: 0; /* Align to the left */
+            bottom: 0; /* Positioned right under text */
         }
 
         /* Smaller paragraph text */
@@ -87,6 +90,7 @@ layout: default
             padding: 2px 4px; /* Smaller padding */
             border-radius: 3px; /* Slightly smaller border radius */
         }
+
 
             /* Navigation container - Compact */
         .nav-container {
