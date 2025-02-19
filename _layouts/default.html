@@ -27,165 +27,137 @@
    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
     <style>
-/* Global Styles */
-body {
-    font-family: 'DM Sans', 'Arial', 'Helvetica Neue', sans-serif !important;
-    font-weight: 300 !important;
-    font-style: normal !important;
-    margin: 30px !important; /* Website margin applied to body */
-    padding: 0 !important;
-    line-height: 1.5 !important; /* Increased line-height for better readability */
-    color: #403f1a !important;
-    font-size: 0.9rem !important;
-    background-color: #d3dcc8;
-    background-image: linear-gradient(to right bottom, 
-    #dce3d3, #dee4d5, #e0e5d7, #e1e7d9, #e3e8db, 
-    #e2e7da, #e2e7d9, #e1e6d8, #dee3d4, #dae1d0, 
-    #d7decc, #d3dcc8);
+                /* Global Styles */
+                :root {
+            --primary-font: 'DM Sans', 'Arial', 'Helvetica Neue', sans-serif;
+            --heading-font: 'Lora', 'Georgia', 'Times New Roman', serif;
+            --primary-color: #32423B;
+            --background-gradient: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%) !important;
+        }
 
-}
+        body {
+            font-family: var(--primary-font) !important;
+            font-weight: 300 !important;
+            font-style: normal !important;
+            margin: 30px !important;
+            padding: 0 !important;
+            line-height: 1.5 !important;
+            color: var(--primary-color) !important;
+            font-size: 0.9rem !important;
+            background: var(--background-gradient) !important;
+            background-attachment: fixed !important;
+            background-size: cover !important;
+            background-repeat: no-repeat !important;
+            background-position: center !important;
+        }
 
-a {
-    color: #403f1a !important; /* Same color as body text */
-    text-decoration: none !important; /* Remove default underline */
-    position: relative !important; /* Needed for the custom underline effect */
-    font-weight: 300 !important; /* Regular weight */
-    transition: font-weight 0.2s ease !important; /* Smooth transition for weight change */
-}
+        a {
+            color: var(--primary-color) !important;
+            text-decoration: none !important;
+            position: relative !important;
+            font-weight: 300 !important;
+            transition: font-weight 0.2s ease !important;
+        }
 
-/* Faint underline effect */
-a::after {
-    content: "" !important; /* Empty content to create underline */
-    display: block !important;
-    width: 100% !important;
-    height: 1px !important; /* Thin underline */
-    background-color: rgba(10, 10, 10, 0.3) !important; /* Higher opacity underline */
-    position: absolute !important;
-    bottom: -2px !important; /* Position slightly below text */
-    left: 0 !important;
-    opacity: 0.5 !important; /* Make the underline faint and visible by default */
-    transition: opacity 0.3s ease !important, transform 0.3s ease !important; /* Smooth transition for underline opacity */
-}
+        a::after {
+            content: "" !important;
+            display: block !important;
+            width: 100% !important;
+            height: 1px !important;
+            background-color: rgba(10, 10, 10, 0.3) !important;
+            position: absolute !important;
+            bottom: -2px !important;
+            left: 0 !important;
+            opacity: 0.5 !important;
+            transition: opacity 0.3s ease, transform 0.3s ease !important;
+        }
 
-/* Hover effect */
-a:hover {
-    font-weight: 450 !important; /* Slightly bolder text on hover */
-    color: #2b2b12 !important; /* Change color on hover for a more chic look */
-    transform: scale(1.05) !important; /* Slight scale up for modern touch */
-}
+        a:hover {
+            font-weight: 450 !important;
+            color: #283a2e !important;
+            transform: scale(1.05) !important;
+        }
 
-/* Show underline with increased opacity on hover */
-a:hover::after {
-    opacity: 1 !important; /* Make underline fully visible on hover */
-}
+        a:hover::after {
+            opacity: 1 !important;
+        }
 
-/* Active state (clicked link) */
-a:active {
-    font-weight: 500 !important; /* Slightly bolder text when clicked */
-    color: #403f1a !important; /* Keep color the same when clicked */
-}
+        a:active {
+            font-weight: 500 !important;
+        }
 
-/* Italic Text - Minimal & Chic */
-body .em {
-    font-style: italic !important;
-    opacity: 0.9 !important; /* Slight transparency for a softer look */
-    transition: opacity 0.2s ease-in-out !important;
-}
+        /* Text Styles */
+        .em {
+            font-style: italic !important;
+            opacity: 0.9 !important;
+            transition: opacity 0.2s ease-in-out !important;
+        }
 
-/* Bold Text - Sleek & Refined */
-body .strong {
-    font-weight: 340 !important; /* Slightly refined weight for elegance */
-    letter-spacing: 0.02em !important; /* Subtle spacing for readability */
-    transition: font-weight 0.2s ease-in-out !important;
-}
+        .strong {
+            font-weight: 340 !important;
+            letter-spacing: 0.02em !important;
+            transition: font-weight 0.2s ease-in-out !important;
+        }
 
-/* Bold and Italic Text - Balanced Elegance */
-body .strong.em {
-    font-weight: 340 !important;
-    font-style: italic !important;
-    opacity: 0.9 !important;
-    letter-spacing: 0.02em !important;
-    transition: font-weight 0.2s ease-in-out !important, opacity 0.2s ease-in-out !important;
-}
+        .strong.em {
+            font-style: italic !important;
+            opacity: 0.9 !important;
+        }
 
+        /* List Styling */
+        ul, ol {
+            padding-left: 20px !important;
+            margin: 5px 0 !important;
+        }
 
+        ul li, ol li {
+            margin-bottom: 3px !important;
+            line-height: 1.4 !important;
+        }
 
-/* Adjusts spacing for list items */
-ul, ol {
-    padding-left: 20px !important; /* Ensures proper indentation */
-    margin-top: 5px !important;  /* Reduces space above lists */
-    margin-bottom: 5px !important; /* Reduces space below lists */
-}
+        /* Headings */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: var(--heading-font) !important;
+            font-weight: 400 !important;
+            margin: 0 !important;
+            padding: 10px 0 !important;
+            line-height: 1.3 !important;
+        }
 
-li {
-    margin-bottom: 3px !important; /* Reduces space between list items */
-    line-height: 1.4 !important; /* Adjusts line height for better readability */
-}
+        /* Font Sizes */
+        h1 { font-size: 2.35rem !important; padding-top: 20px; }
+        h2 { font-size: 2rem !important; padding-top: 15px; }
+        h3 { font-size: 1.75rem !important; padding-top: 12px; }
+        h4 { font-size: 1.5rem !important; padding-top: 10px; }
+        h5 { font-size: 1.25rem !important; padding-top: 8px; }
+        h6 { font-size: 1rem !important; padding-top: 6px; }
 
-/* Headings */
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Lora', 'Georgia', 'Times New Roman', serif !important;
-    font-weight: 400 !important;
-    margin: 0 !important; /* Removed margin for headings */
-    padding: 10px 0 !important; /* Added padding to headings for spacing */
-    line-height: 1.3 !important; /* Slightly increased line-height for headings */
-}
+        h4 {
+            position: relative;
+        }
 
-/* Font Sizes for Headings (Desktop Default) */
-h1 {
-    font-size: 2.35rem !important; /* Larger h1 */
-    padding-top: 20px; /* Added padding-top for spacing */
-}
+        h4::after {
+            content: "";
+            display: block;
+            width: 100%;
+            height: 1.5px;
+            background-color: rgba(128, 128, 128, 0.5);
+            margin-top: 8px;
+        }
 
-h2 {
-    font-size: 2rem !important; /* Larger h2 */
-    padding-top: 15px; /* Added padding-top for spacing */
-}
+        /* Bold Headings */
+        h1.strong, h2.strong, h3.strong, h4.strong, h5.strong, h6.strong {
+            font-weight: 600 !important;
+        }
 
-h3 {
-    font-size: 1.75rem !important; /* Larger h3 */
-    padding-top: 12px; /* Added padding-top for spacing */
-}
-
-h4 {
-    font-size: 1.5rem !important; /* Larger h4 */
-    padding-top: 10px; /* Added padding-top for spacing */
-    position: relative; /* Ensures the pseudo-element is positioned relative to h4 */
-}
-
-h4::after {
-    content: ""; /* Creates the horizontal line */
-    display: block;
-    width: 100%; /* Full width of the container */
-    height: 1.5px; /* Thin horizontal line */
-    background-color: rgba(128, 128, 128, 0.5); /* Greyish color with 50% opacity */
-    margin-top: 8px; /* Spacing between text and line */
-}
-
-h5 {
-    font-size: 1.25rem !important; /* Larger h5 */
-    padding-top: 8px; /* Added padding-top for spacing */
-}
-
-h6 {
-    font-size: 1.0rem !important; /* Larger h6 */
-    padding-top: 6px; /* Added padding-top for spacing */
-}
-
-/* Bolded Headings */
-h1.strong, h2.strong, h3.strong, h4.strong, h5.strong, h6.strong {
-    font-weight: 600 !important;
-}
-
-/* Title link style */
-#title-link {
-    font-family: 'Lora', 'Georgia', 'Times New Roman', serif !important;
-    text-decoration: none !important; /* Remove the underline */
-    color: #403f1a !important; /* Ensure the color matches the rest of your design */
-    font-weight: 400 !important; /* Customize the weight */
-    transition: color 0.3s ease !important; /* Optional: smooth transition on hover */
-}
-
+        /* Title Link Style */
+        #title-link {
+            font-family: var(--heading-font) !important;
+            text-decoration: none !important;
+            color: var(--primary-color) !important;
+            font-weight: 400 !important;
+            transition: color 0.3s ease !important;
+        }
     </style>
 
 
