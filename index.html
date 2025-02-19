@@ -28,68 +28,100 @@ layout: default
    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
    <style>
-        /* About Me container styling */
+        /* About Me Container - Modern Card Style */
         .about-me {
-            background-color: #fff;
+            background-color: #fdfdfd;
             color: #403f1a;
-            padding: 15px; /* Reduced padding */
-            border-radius: 8px; /* Slightly smaller border radius */
-            box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.08); /* Softer shadow */
-            text-align: left; /* Align all text to the left */
-            max-width: 400px; /* Reduced max width */
-            margin: 30px auto; /* Smaller margin */
-            margin-top: 50px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            max-width: 480px;
+            margin: 40px auto;
             display: flex;
-            justify-content: center;
-            align-items: flex-start; /* Align items to the left */
-            height: auto;
             flex-direction: column;
+            align-items: flex-start;
+            transition: box-shadow 0.3s ease-in-out;
         }
 
-        /* Smaller heading aligned to the left */
+        /* Hover effect for depth */
+        .about-me:hover {
+            box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Profile Image */
+        .about-me img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        /* Heading Styling */
         .about-me h5 {
             font-family: 'Lora', serif;
-            font-size: 1rem; /* Smaller font size */
-            font-weight: 400;
+            font-size: 1.1rem;
+            font-weight: 600;
             position: relative;
-            display: block; /* Ensure full width */
-            padding-bottom: 6px; /* Reduced padding */
-            text-align: left; /* Align text to the left */
+            padding-bottom: 8px;
+            text-align: left;
         }
 
-        /* Left-aligned underline */
+        /* Underline Animation */
         .about-me h5::after {
             content: "";
             display: block;
-            width: 40%; /* Adjusted width */
-            height: 1.5px; /* Thinner underline */
-            background-color: rgba(128, 128, 128, 0.6);
-            position: absolute;
-            left: 0; /* Align to the left */
-            bottom: 0; /* Positioned right under text */
+            width: 50px;
+            height: 2px;
+            background-color: rgba(128, 128, 128, 0.8);
+            margin-top: 4px;
+            transition: width 0.3s ease-in-out;
         }
 
-        /* Smaller paragraph text */
+        .about-me h5:hover::after {
+            width: 80px;
+        }
+
+        /* Paragraph Styling */
         .about-me p {
-            font-size: 0.8rem; /* Smaller font size */
-            line-height: 1.5; /* Reduced line height */
-            font-weight: 300;
-            padding: 8px 0; /* Smaller padding */
+            font-size: 0.9rem;
+            line-height: 1.6;
+            font-weight: 400;
+            padding: 10px 0;
         }
 
-        /* Subtle highlight styles */
+        /* Highlight styles */
         .highlight {
-            font-weight: 500;
+            font-weight: 600;
             color: #7a4e22;
         }
 
+        /* Background Highlight */
         .highlight-bg {
             font-weight: 500;
             color: #6c4f3d;
-            background: rgba(108, 79, 61, 0.1);
-            padding: 2px 4px; /* Smaller padding */
-            border-radius: 3px; /* Slightly smaller border radius */
+            background: rgba(108, 79, 61, 0.15);
+            padding: 3px 6px;
+            border-radius: 4px;
         }
+
+        /* CTA Button */
+        .about-me .cta-button {
+            margin-top: 15px;
+            padding: 8px 14px;
+            background-color: #7a4e22;
+            color: #fff;
+            font-size: 0.85rem;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: background 0.3s;
+        }
+
+        .about-me .cta-button:hover {
+            background-color: #5d3a17;
+        }
+
 
 
             /* Navigation container - Compact */
@@ -174,9 +206,10 @@ layout: default
     <br>
 
     <div class="about-me">
+        <img src="your-profile-image.jpg" alt="Sin Yin"> <!-- Optional Profile Picture -->
         <h5>Hi, I'm Sin Yin!</h5>
         <p>
-            I'm a final-year <span class ="highlight"> media and communications</span> student at 
+            I'm a final-year <span class="highlight">media and communications</span> student at 
             <span class="highlight">INTI International College Subang</span>, in collaboration with 
             <span class="highlight">Swinburne University of Technology</span>.  
             <br><br>
@@ -186,14 +219,12 @@ layout: default
             <span class="highlight">technical side of the media industry</span>, particularly in research and 
             data-driven strategies.  
             <br><br>
-            What excites me most is the <em>intersection of data and creativity</em>. With a sharp eye for data 
-            and a knack for strategic thinking, I’m eager to tackle challenges with fresh, actionable 
-            strategies that deliver results.  
-            <br><br>
             Looking forward to starting my journey in an <span class="highlight">entry-level marketing role</span> in a 
             <span class="highlight">dynamic environment</span> in <span class="highlight-bg">February 2026</span>!
         </p>
+        <a href="your-linkedin-profile" class="cta-button">Connect with Me</a>
     </div>
+    
     
     <br>
 
