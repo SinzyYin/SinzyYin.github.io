@@ -87,14 +87,15 @@ layout: default
             border-radius: 3px; /* Slightly smaller border radius */
         }
 
-        /* Navigation container - Compact */
+        /* Navigation container - Auto-spaced */
         .nav-container {
             display: flex;
             align-items: center;
-            gap: 15px; /* Reduce spacing between items */
+            justify-content: space-between; /* Distributes items evenly */
             font-size: 0.85rem; /* Smaller font */
             font-family: "Lora", serif;
             padding: 5px 0; /* Reduce padding */
+            width: 100%; /* Ensures full width */
         }
 
         /* Dropdown container */
@@ -133,6 +134,7 @@ layout: default
             background: rgba(64, 63, 26, 0.1);
             border-radius: 4px;
         }
+
 
     </style>
     
