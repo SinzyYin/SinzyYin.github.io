@@ -49,16 +49,7 @@ layout: default
             box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.15);
         }
 
-        /* Profile Image */
-        .about-me img {
-            width: 80px;
-            height: 80px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 15px;
-        }
-
-        /* Heading Styling */
+        /* Heading Styling with Gradient Text */
         .about-me h5 {
             font-family: 'Lora', serif;
             font-size: 1.1rem;
@@ -66,8 +57,16 @@ layout: default
             position: relative;
             padding-bottom: 8px;
             text-align: left;
-            color: #5a4e69; /* Soft purple heading */
+            
+            /* Gradient text */
+            background-image: linear-gradient(-225deg, #A8BFFF 0%, #884D80 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            
+            /* Fallback color in case gradient isn't supported */
+            color: #5a4e69;
         }
+
 
         /* Underline Animation */
         .about-me h5::after {
@@ -123,6 +122,7 @@ layout: default
             background-color: #b8aabd;
             color: #fff;
         }
+
 
 
             /* Navigation container - Compact */
