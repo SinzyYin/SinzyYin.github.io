@@ -28,73 +28,34 @@ layout: default
    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
    <style>
-        /* Global styles for body */
-        html, body {
-            font-family: 'DM Sans', sans-serif;
-            margin: 0;
-            padding: 0;
-            height: 100%;
-        }
-
-        /* About Me container styling */
+        /* Smaller about-me container */
         .about-me {
-        background-color: #fff;
-        color: #403f1a;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.1);
-        text-align: center;
-        max-width: 500px;  /* Reduced max-width */
-        margin: 40px auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        height: auto;  /* Adjusted height to fit content */
-        flex-direction: column;
-         }
+            max-width: 550px; /* Reduce width */
+            padding: 20px; /* Less padding */
+            border-radius: 8px; /* Slightly smaller rounded corners */
+            box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.08); /* Softer shadow */
+        }
 
-
-        /* Heading styling */
+        /* Smaller heading */
         .about-me h2 {
-            font-family: 'Lora', serif;
-            font-size: 1.5rem;
+            font-size: 1.5rem; /* Reduce font size */
             font-weight: 400;
-            position: relative;
-            display: inline-block;
-            padding-bottom: 8px;
+            padding-bottom: 5px; /* Reduce spacing below */
         }
 
-        /* More opaque underline */
+        /* Adjust underline */
         .about-me h2::after {
-            content: "";
-            display: block;
-            width: 60%;
-            height: 2px;
-            background-color: rgba(128, 128, 128, 0.7);
-            margin: 10px auto 0;
+            width: 50%; /* Make underline shorter */
+            height: 1.5px; /* Slightly thinner */
         }
 
-        /* Paragraph styling */
+        /* Paragraph adjustments */
         .about-me p {
-            font-size: 0.9rem;
-            line-height: 1.6;
-            font-weight: 300;
-            padding: 10px 0;
+            font-size: 0.85rem; /* Smaller text */
+            line-height: 1.5; /* Adjust line height */
+            padding: 8px 0;
         }
 
-        /* Subtle highlight styles */
-        .highlight {
-            font-weight: 500;
-            color: #7a4e22;
-        }
-
-        .highlight-bg {
-            font-weight: 500;
-            color: #6c4f3d;
-            background: rgba(108, 79, 61, 0.1);
-            padding: 2px 5px;
-            border-radius: 4px;
-        }
 
         /* Navigation container - Compact */
         .nav-container {
