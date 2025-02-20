@@ -152,12 +152,12 @@ layout: default
         .contact-container:hover {
             box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.15);
         }
-        .contact-container .form {
+        form {
             display: flex;
             flex-direction: column;
             gap: 10px;
         }
-        .contact-container .input .textarea {
+        input, textarea {
             font-family: 'Lora', serif;
             max-width: 450px;
             padding: 20px;
@@ -166,11 +166,11 @@ layout: default
             font-size: 1rem;
             display: flex;
         }
-        .contact-container .button {
+        button {
             font-family: 'Lora', serif;
             background-color: #91b8b6;
             color: #ffffff;
-            padding: 5px;
+            padding: 10px;
             border: none;
             border-radius: 4px;
             cursor: pointer;
@@ -179,7 +179,7 @@ layout: default
             text-decoration: none;
             transition: background 0.3s, color 0.3s;
         }
-        .contact-container .button:hover {
+        button:hover {
             background-color: #9bc5c3;
             color: #ffffff;
         }
