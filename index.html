@@ -136,32 +136,28 @@ layout: default
         /* Dropdown container */
         .dropdown {
             position: relative;
-            display: inline-block;
+            display: block;
         }
 
-        /* Dropdown menu - Slow fade-in animation */
+        /* Dropdown menu */
         .dropdown-content {
             display: flex;
             flex-direction: column;
-            position: absolute;
-            top: 110%; /* Move dropdown lower to avoid touching About Me */
-            left: 0;
             background: transparent;
             gap: 6px; /* Reduce spacing between dropdown items */
             font-size: 0.8rem;
             min-width: 160px;
             padding-top: 5px;
-            opacity: 0;
-            transform: translateY(-10px); /* Initially move up slightly */
-            pointer-events: none; /* Prevent interaction before it appears */
-            transition: opacity 0.4s ease, transform 0.4s ease;
+            
+            /* Initially collapsed */
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease-in-out;
         }
 
-        /* Ensure dropdown stays open when hovering */
+        /* Expand dropdown and push content down when hovering */
         .dropdown:hover .dropdown-content {
-            opacity: 1;
-            transform: translateY(0); /* Moves to normal position smoothly */
-            pointer-events: auto;
+            max-height: 200px; /* Adjust this based on menu height */
         }
 
         /* Remove underline for dropdown items */
@@ -174,8 +170,6 @@ layout: default
             background: rgba(64, 63, 26, 0.1);
             border-radius: 4px;
         }
-
-
 
     </style>
     
