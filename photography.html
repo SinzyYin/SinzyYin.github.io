@@ -28,100 +28,6 @@ layout: default
    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
    <style>
-        /* About Me Container - Modern Card Style */
-        .about-me {
-            background-color: #fdfdfd;
-            color: #403f1a;
-            padding: 20px;
-            border-radius: 12px;
-            box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.1);
-            text-align: left;
-            max-width: 480px;
-            margin: 40px auto;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-start;
-            transition: box-shadow 0.3s ease-in-out;
-        }
-
-        /* Hover effect for depth */
-        .about-me:hover {
-            box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.15);
-        }
-
-        /* Heading Styling with Gradient Text */
-        .about-me h5 {
-            font-family: 'Lora', serif;
-            font-size: 1.1rem;
-            font-weight: 600;
-            position: relative;
-            padding-bottom: 8px;
-            text-align: left;
-
-            /* Gradient Text */
-            background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-
-            /* Fallback Color */
-            color: #616161;
-        }
-
-        /* Underline Animation */
-        .about-me h5::after {
-            content: "";
-            display: block;
-            width: 50px;
-            height: 2px;
-            background-color: #9bc5c3; /* Light teal from the gradient */
-            margin-top: 4px;
-            transition: width 0.3s ease-in-out;
-        }
-
-        .about-me h5:hover::after {
-            width: 80px;
-        }
-
-        /* Paragraph Styling */
-        .about-me p {
-            font-size: 0.9rem;
-            line-height: 1.6;
-            font-weight: 400;
-            padding: 10px 0;
-        }
-
-        /* Highlight styles */
-        .highlight {
-            font-weight: 600;
-            color: #9bc5c3; /* Light teal */
-        }
-
-        /* Background Highlight */
-        .highlight-bg {
-            font-weight: 500;
-            color: #616161;
-            background: rgba(155, 197, 195, 0.3); /* Soft teal background */
-            padding: 3px 6px;
-            border-radius: 4px;
-        }
-
-        /* CTA Button */
-        .about-me .cta-button {
-            margin-top: 15px;
-            padding: 8px 14px;
-            background-color: #616161; /* Dark gray from the gradient */
-            color: #ffffff;
-            font-size: 0.85rem;
-            border-radius: 6px;
-            text-decoration: none;
-            transition: background 0.3s, color 0.3s;
-        }
-
-        .about-me .cta-button:hover {
-            background-color: #9bc5c3; /* Light teal */
-            color: #ffffff;
-        }
-
             /* Navigation container - Compact */
         .nav-container {
             display: flex;
@@ -189,9 +95,11 @@ layout: default
             font-size: 1.8rem;
             font-family: "Lora", serif;
             font-weight: bold;
+            margin-top: 40px; /* Increase spacing */
             margin-bottom: 15px;
             color: #333; /* Adjust for aesthetics */
         }
+
         .nav-container-types-photography {
             display: flex;
             align-items: center;
@@ -312,7 +220,7 @@ layout: default
         <div class="gallery">
             <a href="#PhotographyAssignment_A_1"><img src="images/photography/PhotographyAssignment_A_1.jpg" alt="Portrait Photo" class="photo portrait"></a>
             <a href="#PhotographyAssignment_A_2"><img src="images/photography/PhotographyAssignment_A_2.jpg" alt="Urban Photo" class="photo urban"></a>
-            <a href="#PhotographyAssignment_A_3"><img src="images/photography/PhotographyAssignment_A_3.jpg" alt="Urban Photo" class="photo urban"></a>
+            <a href="#PhotographyAssignment_A_3"><img src="images/photography/PhotographyAssignment_A_3.jpg" alt="Urban and Nature Photo" class="photo urban nature"></a>
             <a href="#PhotographyAssignment_A_4"><img src="images/photography/PhotographyAssignment_A_4.jpg" alt="Urban Photo" class="photo urban"></a>
             <a href="#PhotographyAssignment_A_5"><img src="images/photography/PhotographyAssignment_A_5.jpg" alt="Portrait Photo" class="photo portrait"></a>
         </div>
@@ -328,7 +236,7 @@ layout: default
     </div>
     <div class="lightbox" id="PhotographyAssignment_A_3">
         <a href="#" class="close">&times;</a>
-        <img src="images/photography/PhotographyAssignment_A_3.jpg" alt="Urban Photo">
+        <img src="images/photography/PhotographyAssignment_A_3.jpg" alt="Urban and Nature Photo">
     </div>
     <div class="lightbox" id="PhotographyAssignment_A_4">
         <a href="#" class="close">&times;</a>
