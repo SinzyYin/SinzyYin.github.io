@@ -253,19 +253,26 @@ layout: default
             opacity: 1;
         }
         .lightbox .close {
-            position: absolute;
-            top: 20px;
-            right: 30px;
-            font-size: 30px;
-            color: white;
-            text-decoration: none;
-            background: rgba(0, 0, 0, 0.5);
-            padding: 5px 10px;
-            border-radius: 50%;
-        }
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 30px;
+        color: #fff;
+        text-decoration: none;
+        background: rgba(255, 255, 255, 0.7); /* Brighter background */
+        padding: 5px 10px;
+        border-radius: 50%;
+        transition: background 0.3s ease;
+         }   
+        .lightbox .close:hover {
+        background: rgba(255, 255, 255, 1); /* Fully bright on hover */
+        color: #000; /* Black 'X' for contrast */
+
+          }
         .hidden {
             display: none;
         }
+        
     </style>
 </head>
 <body>
