@@ -159,18 +159,41 @@ layout: default
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.8);
+            background: rgba(0, 0, 0, 0.8); /* Darker background */
             display: flex;
+            flex-direction: column; /* Stack image & text */
             justify-content: center;
             align-items: center;
             visibility: hidden;
             opacity: 0;
             transition: opacity 0.3s ease, visibility 0.3s ease;
         }
+
+        /* Fade the website background when lightbox is open */
+        body.lightbox-active {
+            filter: blur(5px); /* Blurs the background slightly */
+            transition: filter 0.3s ease;
+        }
+
+        /* Lightbox image */
         .lightbox img {
             max-width: 90%;
-            max-height: 80vh;
+            max-height: 75vh;
             border-radius: 8px;
+        }
+
+        /* Info box for image details */
+        .lightbox-info {
+            background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+            color: white;
+            padding: 10px 15px;
+            font-size: 14px;
+            font-family: "DM Sans", sans-serif;
+            text-align: center;
+            margin-top: 10px;
+            width: 90%;
+            max-width: 600px;
+            border-radius: 5px;
         }
         .lightbox:target {
             visibility: visible;
@@ -248,19 +271,17 @@ layout: default
     </div>
 
     <script>
-        document.querySelectorAll('.filter-button').forEach(button => {
-            button.addEventListener('click', function() {
-                document.querySelectorAll('.filter-button').forEach(btn => btn.classList.remove('active'));
-                this.classList.add('active');
-                let filterValue = this.getAttribute('data-filter');
-                let photos = document.querySelectorAll('.gallery img');
-                photos.forEach(photo => {
-                    if (filterValue === 'all' || photo.classList.contains(filterValue)) {
-                        photo.parentElement.style.display = 'block';
-                    } else {
-                        photo.parentElement.style.display = 'none';
-                    }
-                });
+        document.querySelectorAll('.lightbox').forEach(lightbox => {
+            lightbox.addEventListener('click', function(e) {
+                if (e.target.classList.contains('close')) {
+                    document.body.classList.remove('lightbox-active'); // Remove blur effect
+                }
+            });
+        });
+
+        document.querySelectorAll('.gallery a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.body.classList.add('lightbox-active'); // Apply blur effect
             });
         });
     </script>
