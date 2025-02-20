@@ -95,12 +95,10 @@ layout: default
             font-size: 1.8rem;
             font-family: "Lora", serif;
             font-weight: bold;
-            margin-top: 40px; /* Increase spacing */
-            margin-bottom: 15px;
-            color: #333; /* Adjust for aesthetics */
+            margin: 40px 0 15px;
+            color: #333;
         }
-
-        .nav-container-types-photography {
+        .nav-container {
             display: flex;
             align-items: center;
             gap: 15px;
@@ -110,12 +108,10 @@ layout: default
         }
         .filter-container {
             display: flex;
-            justify-content: center; /* Centers the buttons */
+            justify-content: center;
             gap: 10px;
-            margin: 20px auto; /* Centers the container */
-            text-align: center;
+            margin: 20px auto;
         }
-
         .filter-button {
             padding: 8px 20px;
             font-size: 14px;
@@ -125,14 +121,13 @@ layout: default
             color: #616161;
             border-radius: 20px;
             cursor: pointer;
-            transition: all 0.3s ease-in-out;
+            transition: 0.3s ease-in-out;
         }
         .filter-button:hover, .filter-button.active {
             background: #616161;
             color: white;
-            border-color: #616161;
             transform: translateY(-2px);
-            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
         .gallery-container {
             max-width: 1000px;
@@ -145,7 +140,6 @@ layout: default
         }
         .gallery img {
             width: 100%;
-            height: auto;
             border-radius: 8px;
             cursor: pointer;
             transition: transform 0.3s ease;
@@ -159,39 +153,32 @@ layout: default
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0, 0, 0, 0.8); /* Darker background */
+            background: rgba(0, 0, 0, 0.8);
             display: flex;
-            flex-direction: column; /* Stack image & text */
+            flex-direction: column;
             justify-content: center;
             align-items: center;
             visibility: hidden;
             opacity: 0;
-            transition: opacity 0.3s ease, visibility 0.3s ease;
+            transition: opacity 0.3s ease;
         }
-
-        /* Fade the website background when lightbox is open */
         body.lightbox-active {
-            filter: blur(5px); /* Blurs the background slightly */
+            filter: blur(5px);
             transition: filter 0.3s ease;
         }
-
-        /* Lightbox image */
         .lightbox img {
             max-width: 90%;
             max-height: 75vh;
             border-radius: 8px;
         }
-
-        /* Info box for image details */
         .lightbox-info {
-            background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
+            background: rgba(0, 0, 0, 0.6);
             color: white;
             padding: 10px 15px;
             font-size: 14px;
             font-family: "DM Sans", sans-serif;
             text-align: center;
             margin-top: 10px;
-            width: 90%;
             max-width: 600px;
             border-radius: 5px;
         }
@@ -200,27 +187,22 @@ layout: default
             opacity: 1;
         }
         .lightbox .close {
-        position: absolute;
-        top: 20px;
-        right: 30px;
-        font-size: 30px;
-        color: #fff;
-        text-decoration: none;
-        background: rgba(255, 255, 255, 0.7); /* Brighter background */
-        padding: 5px 10px;
-        border-radius: 50%;
-        transition: background 0.3s ease;
-         }   
-        .lightbox .close:hover {
-        background: rgba(255, 255, 255, 1); /* Fully bright on hover */
-        color: #000; /* Black 'X' for contrast */
-
-          }
-        .hidden {
-            display: none;
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-size: 30px;
+            color: #fff;
+            background: rgba(255, 255, 255, 0.7);
+            padding: 5px 10px;
+            border-radius: 50%;
+            transition: background 0.3s ease;
         }
-
+        .lightbox .close:hover {
+            background: rgba(255, 255, 255, 1);
+            color: #000;
+        }
     </style>
+    
 </head>
 <body>
     <div class="nav-container-types-photography">
