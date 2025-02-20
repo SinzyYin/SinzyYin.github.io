@@ -1,0 +1,324 @@
+---
+layout: default
+---
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+<head>
+   {% if site.google_analytics %}
+   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      
+      gtag('config', '{{ site.google_analytics }}');
+   </script>
+   {% endif %}
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   {% seo %}
+   <link rel="stylesheet" href="/assets/css/style.css">
+   <!--[if lt IE 9]>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+   <![endif]-->
+   <!--deleting stylesheet will result in BROKEN WEBSITE-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+
+   <style>
+        /* About Me Container - Modern Card Style */
+        .about-me {
+            background-color: #fdfdfd;
+            color: #403f1a;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.1);
+            text-align: left;
+            max-width: 480px;
+            margin: 40px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            transition: box-shadow 0.3s ease-in-out;
+        }
+
+        /* Hover effect for depth */
+        .about-me:hover {
+            box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Heading Styling with Gradient Text */
+        .about-me h5 {
+            font-family: 'Lora', serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            position: relative;
+            padding-bottom: 8px;
+            text-align: left;
+
+            /* Gradient Text */
+            background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            /* Fallback Color */
+            color: #616161;
+        }
+
+        /* Underline Animation */
+        .about-me h5::after {
+            content: "";
+            display: block;
+            width: 50px;
+            height: 2px;
+            background-color: #9bc5c3; /* Light teal from the gradient */
+            margin-top: 4px;
+            transition: width 0.3s ease-in-out;
+        }
+
+        .about-me h5:hover::after {
+            width: 80px;
+        }
+
+        /* Paragraph Styling */
+        .about-me p {
+            font-size: 0.9rem;
+            line-height: 1.6;
+            font-weight: 400;
+            padding: 10px 0;
+        }
+
+        /* Highlight styles */
+        .highlight {
+            font-weight: 600;
+            color: #9bc5c3; /* Light teal */
+        }
+
+        /* Background Highlight */
+        .highlight-bg {
+            font-weight: 500;
+            color: #616161;
+            background: rgba(155, 197, 195, 0.3); /* Soft teal background */
+            padding: 3px 6px;
+            border-radius: 4px;
+        }
+
+        /* CTA Button */
+        .about-me .cta-button {
+            margin-top: 15px;
+            padding: 8px 14px;
+            background-color: #616161; /* Dark gray from the gradient */
+            color: #ffffff;
+            font-size: 0.85rem;
+            border-radius: 6px;
+            text-decoration: none;
+            transition: background 0.3s, color 0.3s;
+        }
+
+        .about-me .cta-button:hover {
+            background-color: #9bc5c3; /* Light teal */
+            color: #ffffff;
+        }
+
+            /* Navigation container - Compact */
+        .nav-container {
+            display: flex;
+            align-items: center;
+            gap: 15px; /* Reduce spacing between items */
+            font-size: 0.85rem; /* Smaller font */
+            font-family: "Lora", serif;
+            padding: 5px 0; /* Reduce padding */
+        }
+
+        /* Dropdown container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Dropdown menu - Slow fade-in animation */
+        .dropdown-content {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 110%; /* Move dropdown lower to avoid touching About Me */
+            left: 0;
+            background: transparent;
+            gap: 6px; /* Reduce spacing between dropdown items */
+            font-size: 0.8rem;
+            min-width: 160px;
+            padding-top: 5px;
+            opacity: 0;
+            transform: translateY(-10px); /* Initially move up slightly */
+            pointer-events: none; /* Prevent interaction before it appears */
+            transition: opacity 0.4s ease, transform 0.4s ease;
+        }
+
+        /* Ensure dropdown stays open when hovering */
+        .dropdown:hover .dropdown-content {
+            opacity: 1;
+            transform: translateY(0); /* Moves to normal position smoothly */
+            pointer-events: auto;
+        }
+
+        /* Remove underline for dropdown items */
+        .dropdown-content a::after {
+            display: none !important;
+        }
+
+        /* Add a light hover background for dropdown items */
+        .dropdown-content a:hover {
+            background: rgba(64, 63, 26, 0.1);
+            border-radius: 4px;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .filter-container {
+            margin: 20px;
+        }
+        .filter-container select {
+            padding: 8px;
+            font-size: 16px;
+        }
+        .gallery-container {
+            max-width: 1000px;
+            padding: 20px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 15px;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        .lightbox {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            visibility: hidden;
+            opacity: 0;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        .lightbox img {
+            max-width: 90%;
+            max-height: 80vh;
+            border-radius: 8px;
+        }
+        .lightbox:target {
+            visibility: visible;
+            opacity: 1;
+        }
+        .hidden {
+            display: none;
+        }
+
+
+    </style>
+    
+    <title>Photography Portfolio</title>
+</head>
+
+<body>
+    
+    <div class="nav-container">
+        <a href="index.html">About Me</a>
+        <a href="learningmilestones.html">Learning Milestones</a>
+    
+        <div class="dropdown">
+            <a href="#">My Portfolios</a>
+            <div class="dropdown-content">
+                <a href="#">Content Creation</a>
+                <a href="photography.html">Photography</a>
+                <a href="#">Data Analysis & Visualization</a>
+                <a href="#">How I’d Do It Blog</a>
+            </div>
+        </div>
+    <div class="nav-container">
+        <a href="contact.html">Contact Me</a>
+    </div>
+    </div>
+
+    <br>
+
+</head>
+<body>
+    <div class="filter-container">
+        <label for="filter">Filter by Category:</label>
+        <select id="filter">
+            <option value="all">All</option>
+            <option value="nature">Nature</option>
+            <option value="portrait">Portrait</option>
+            <option value="urban">Urban</option>
+        </select>
+    </div>
+
+    <div class="gallery-container">
+        <div class="gallery">
+            <a href="#PhotographyAssignment_A_1.jpg" class="photo portrait"><img src="images\photography\PhotographyAssignment_A_1.jpg" alt="Portrait Photo"></a>
+            <a href="#PhotographyAssignment_A_2.jpg" class="photo urban"><img src="images\photography\PhotographyAssignment_A_2.jpg" alt="Urban Photo"></a>
+            <a href="#PhotographyAssignment_A_3.jpg" class="photo urban"><img src="images\photography\PhotographyAssignment_A_3.jpg" alt="Urban Photo"></a>
+            <a href="#PhotographyAssignment_A_4.jpg" class="photo urban"><img src="images\photography\PhotographyAssignment_A_4.jpg" alt="Urban Photo"></a>
+            <a href="#PhotographyAssignment_A_5.jpg" class="photo portrait"><img src="images\photography\PhotographyAssignment_A_5.jpg" alt="Portrait Photo"></a>
+            
+            
+
+        </div>
+    </div>
+
+    <div class="lightbox" id="PhotographyAssignment_A_1.jpg">
+        <a href="#PhotographyAssignment_A_1.jpg"><img src="images\photography\PhotographyAssignment_A_1.jpg" alt="Portrait Photo"></a>
+    </div>
+    <div class="lightbox" id="PhotographyAssignment_A_2.jpg">
+        <a href="#PhotographyAssignment_A_2.jpg"><img src="images\photography\PhotographyAssignment_A_2.jpg" alt="Urban Photo"></a>
+    </div>
+    <div class="lightbox" id="PhotographyAssignment_A_3.jpg">
+        <a href="#PhotographyAssignment_A_3.jpg"><img src="images\photography\PhotographyAssignment_A_3.jpg" alt="Urban Photo"></a>
+    </div>
+    <div class="lightbox" id="PhotographyAssignment_A_4.jpg">
+        <a href="#PhotographyAssignment_A_4.jpg"><img src="images\photography\PhotographyAssignment_A_4.jpg" alt="Urban Photo"></a>
+    </div>
+    <div class="lightbox" id="PhotographyAssignment_A_5.jpg">
+        <a href="#PhotographyAssignment_A_5.jpg"><img src="images\photography\PhotographyAssignment_A_5.jpg" alt="Portrait Photo"></a>
+    </div>
+
+    <script>
+        document.getElementById('filter').addEventListener('change', function() {
+            let filterValue = this.value;
+            let photos = document.querySelectorAll('.gallery .photo');
+            
+            photos.forEach(photo => {
+                if (filterValue === 'all' || photo.classList.contains(filterValue)) {
+                    photo.classList.remove('hidden');
+                } else {
+                    photo.classList.add('hidden');
+                }
+            });
+        });
+    </script>
+</body>
+</html>
+
