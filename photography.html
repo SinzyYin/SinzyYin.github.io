@@ -153,52 +153,48 @@ layout: default
         .gallery img:hover {
             transform: scale(1.05);
         }
-        
-        /* Fading the background while keeping the lightbox image visible */
-        body.lightbox-active {
-            background: rgba(0, 0, 0, 0.8); /* Darkens the background */
-            transition: background 0.3s ease;
-        }
-
-        /* Ensures only the content (not the image) fades */
         .lightbox {
             position: fixed;
             top: 0;
             left: 0;
             width: 100%;
             height: 100%;
+            background: rgba(0, 0, 0, 0.8); /* Darker background */
             display: flex;
-            align-items: center;
+            flex-direction: column; /* Stack image & text */
             justify-content: center;
-            pointer-events: none; /* Prevents accidental clicks */
+            align-items: center;
             visibility: hidden;
             opacity: 0;
-            transition: opacity 0.3s ease, visibility 0.3s;
+            transition: opacity 0.3s ease, visibility 0.3s ease;
         }
 
-        /* Show lightbox on target */
-        .lightbox:target {
-            opacity: 1;
-            visibility: visible;
-            pointer-events: auto;
+        /* Fade the website background when lightbox is open */
+        body.lightbox-active {
+            filter: blur(5px); /* Blurs the background slightly */
+            transition: filter 0.3s ease;
         }
 
-        /* Info box below the image */
+        /* Lightbox image */
+        .lightbox img {
+            max-width: 90%;
+            max-height: 75vh;
+            border-radius: 8px;
+        }
+
+        /* Info box for image details */
         .lightbox-info {
-            position: absolute;
-            bottom: 10%;
-            background: rgba(0, 0, 0, 0.6);
+            background: rgba(0, 0, 0, 0.6); /* Dark semi-transparent background */
             color: white;
-            padding: 10px;
+            padding: 10px 15px;
             font-size: 14px;
+            font-family: "DM Sans", sans-serif;
+            text-align: center;
+            margin-top: 10px;
+            width: 90%;
+            max-width: 600px;
             border-radius: 5px;
         }
-
-        /* Hide scrollbar when lightbox is active */
-        body.lightbox-active {
-            overflow: hidden;
-        }
-
         .lightbox:target {
             visibility: visible;
             opacity: 1;
@@ -281,26 +277,19 @@ layout: default
     
 
     <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const lightboxes = document.querySelectorAll(".lightbox");
-            const body = document.body;
-
-            lightboxes.forEach(lightbox => {
-                lightbox.addEventListener("click", function (event) {
-                    if (event.target === this || event.target.classList.contains("close")) {
-                        body.classList.remove("lightbox-active");
-                        window.location.hash = ""; // Remove hash from URL
-                    }
-                });
-            });
-
-            document.querySelectorAll(".gallery a").forEach(link => {
-                link.addEventListener("click", function () {
-                    body.classList.add("lightbox-active");
-                });
+        document.querySelectorAll('.lightbox').forEach(lightbox => {
+            lightbox.addEventListener('click', function(e) {
+                if (e.target.classList.contains('close')) {
+                    document.body.classList.remove('lightbox-active'); // Remove blur effect
+                }
             });
         });
 
+        document.querySelectorAll('.gallery a').forEach(link => {
+            link.addEventListener('click', function() {
+                document.body.classList.add('lightbox-active'); // Apply blur effect
+            });
+        });
     </script>
 </body>
 </html>
