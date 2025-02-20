@@ -97,7 +97,7 @@ layout: default
         }
 
         /* Heading Styling with Gradient Text */
-        .about-me h4 {
+        .contact-container h4 {
             font-family: 'Lora', serif;
             font-size: 2rem;
             font-weight: 750;
@@ -118,7 +118,7 @@ layout: default
         .contact-container h4::after {
             content: "";
             display: block;
-            width: 120px;
+            width: 180px;
             height: 2px;
             background-color: #9bc5c3;
             margin-top: 4px;
@@ -126,7 +126,7 @@ layout: default
         }
 
         .contact-container h4:hover::after {
-            width: 200px;
+            width: 250px;
         }
         /* Paragraph Styling */
         .contact-container p {
@@ -227,17 +227,18 @@ layout: default
         <h4>Get in Touch!</h4>
         <p>As a recent media and communication graduate, I'm eager to <span class="highlight">learn</span>, <span class="highlight">collaborate</span>, and <span class="highlight">gain industry insights</span>. 
             Whether you have a <span class="highlight-bg">project</span>, <span class="highlight-bg">advice</span>, or just want to connect, feel free to reach out, I'd love to hear back from you!</p>
-        <br> <br>
-        <p>Reach out to me via the form below or my Linkedin!</p>
+        <br>
+        <p>Reach out to me via the form below or through my Linkedin!</p>
+        <div class="social-link">
+            <img src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" alt="LinkedIn Logo">
+            <a href="https://www.linkedin.com/in/yapsinyin/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
+        </div>
         <form action="https://formspree.io/f/xanqardv" method="POST">
             <input type="email" name="email" placeholder="Your email" required>
             <textarea name="message" placeholder="Your message" rows="4" required></textarea>
             <button type="submit">Send</button>
         </form>
-        <div class="social-link">
-            <img src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" alt="LinkedIn Logo">
-            <a href="https://www.linkedin.com/in/yapsinyin/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
-        </div>
+
     </div>
 </body>
 </html>
