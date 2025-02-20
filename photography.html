@@ -28,15 +28,15 @@ layout: default
    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
    <style>
-            /* Navigation container - Compact */
+        /* Navigation container - Compact */
         .nav-container {
-            display: flex;
-            align-items: center;
-            gap: 15px; /* Reduce spacing between items */
-            font-size: 0.85rem; /* Smaller font */
-            font-family: "Lora", serif;
-            padding: 5px 0; /* Reduce padding */
-        }
+        display: flex;
+        align-items: center;
+        gap: 15px; /* Reduce spacing between items */
+        font-size: 0.85rem; /* Smaller font */
+        font-family: "Lora", serif;
+        padding: 5px 0; /* Reduce padding */
+          }
 
         /* Dropdown container */
         .dropdown {
@@ -80,6 +80,8 @@ layout: default
             border-radius: 4px;
         }
 
+
+         /* lightbox and image gallery */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -204,11 +206,22 @@ layout: default
 
 </head>
 <body>
-    <div class="nav-container-types-photography">
+    <div class="nav-container">
         <a href="index.html">About Me</a>
         <a href="learningmilestones.html">Learning Milestones</a>
-        <a href="photography.html">Photography</a>
+    
+        <div class="dropdown">
+            <a href="#">My Portfolios</a>
+            <div class="dropdown-content">
+                <a href="#">Content Creation</a>
+                <a href="photography.html">Photography</a>
+                <a href="#">Data Analysis & Visualization</a>
+                <a href="#">How I’d Do It Blog</a>
+            </div>
+        </div>
+    <div class="nav-container">
         <a href="contact.html">Contact Me</a>
+    </div>
     </div>
 
     <h2 class="gallery-title">My Photography Works</h2>
@@ -233,27 +246,27 @@ layout: default
     <div class="lightbox" id="PhotographyAssignment_A_1">
         <a href="#" class="close">&times;</a>
         <img src="images/photography/PhotographyAssignment_A_1.jpg" alt="Portrait Photo">
-        <div class="lightbox-info">A soft-lit portrait captured during golden hour, emphasizing warmth and natural shadows.</div>
+        <div class="lightbox-info">A close-up shot of a cat in black and white, captured in a 16:9 landscape format, highlighting the intricate textures and contrasts of its fur.</div>
     </div>
     <div class="lightbox" id="PhotographyAssignment_A_2">
         <a href="#" class="close">&times;</a>
         <img src="images/photography/PhotographyAssignment_A_2.jpg" alt="Urban Photo">
-        <div class="lightbox-info">An urban cityscape highlighting modern architecture and vibrant nightlife reflections.</div>
+        <div class="lightbox-info">A wide-angle shot of a water fountain, frozen in motion, emphasizing the dynamic composition between the still background and the flowing water.</div>
     </div>
     <div class="lightbox" id="PhotographyAssignment_A_3">
         <a href="#" class="close">&times;</a>
         <img src="images/photography/PhotographyAssignment_A_3.jpg" alt="Urban and Nature Photo">
-        <div class="lightbox-info">Close up shot of a plant being framed by the urban structures.</div>
+        <div class="lightbox-info">A close-up shot of a plant framed by urban structures, highlighting the balance between organic and man-made elements.</div>
     </div>
     <div class="lightbox" id="PhotographyAssignment_A_4">
         <a href="#" class="close">&times;</a>
         <img src="images/photography/PhotographyAssignment_A_4.jpg" alt="Urban Photo">
-        <div class="lightbox-info">Wide shot of a a minimalist street photograph capturing the contrast of light and shadow in an urban setting with a subject.</div>
+        <div class="lightbox-info">A wide shot of a minimalist street scene at the entrance of a car park, emphasizing the stark contrast between light and shadow.</div>
     </div>
     <div class="lightbox" id="PhotographyAssignment_A_5">
         <a href="#" class="close">&times;</a>
         <img src="images/photography/PhotographyAssignment_A_5.jpg" alt="Portrait Photo">
-        <div class="lightbox-info">Wide shot of a a minimalist street photograph capturing the contrast of light and shadow in an urban setting.</div>
+        <div class="lightbox-info"> A wide shot of a solitary subject sitting in front of a car park, using light and shadow to create a moody, minimalist street composition.</div>
     </div>
     
 
@@ -271,8 +284,11 @@ layout: default
                     const filterValue = this.getAttribute("data-filter");
 
                     images.forEach(image => {
-                        const category = image.getAttribute("data-category");
-                        if (filterValue === "all" || category === filterValue) {
+                        // Get class list of the image
+                        const category = image.querySelector("img").classList;
+                        
+                        // Show all images if "all" is selected, else filter by category
+                        if (filterValue === "all" || category.contains(filterValue)) {
                             image.style.display = "block";
                         } else {
                             image.style.display = "none";
@@ -281,6 +297,7 @@ layout: default
                 });
             });
         });
+
 
         document.querySelectorAll('.gallery a').forEach(link => {
             link.addEventListener('click', () => {
