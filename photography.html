@@ -166,6 +166,9 @@ layout: default
             filter: blur(5px);
             transition: filter 0.3s ease;
         }
+        body.lightbox-active footer {
+            display: none;
+        }
         .lightbox img {
             max-width: 90%;
             max-height: 75vh;
@@ -202,7 +205,7 @@ layout: default
             color: #000;
         }
     </style>
-    
+
 </head>
 <body>
     <div class="nav-container-types-photography">
@@ -249,29 +252,52 @@ layout: default
     <div class="lightbox" id="PhotographyAssignment_A_4">
         <a href="#" class="close">&times;</a>
         <img src="images/photography/PhotographyAssignment_A_4.jpg" alt="Urban Photo">
-        <div class="lightbox-info">A minimalist street photograph capturing the contrast of light and shadow in an urban setting.</div>
+        <div class="lightbox-info">Wide shot of a a minimalist street photograph capturing the contrast of light and shadow in an urban setting with a subject.</div>
     </div>
     <div class="lightbox" id="PhotographyAssignment_A_5">
         <a href="#" class="close">&times;</a>
         <img src="images/photography/PhotographyAssignment_A_5.jpg" alt="Portrait Photo">
-        <div class="lightbox-info">A dramatic black and white portrait focusing on texture and emotion.</div>
+        <div class="lightbox-info">Wide shot of a a minimalist street photograph capturing the contrast of light and shadow in an urban setting.</div>
     </div>
     
 
     <script>
-        document.querySelectorAll('.lightbox').forEach(lightbox => {
-            lightbox.addEventListener('click', function(e) {
-                if (e.target.classList.contains('close')) {
-                    document.body.classList.remove('lightbox-active'); // Remove blur effect
-                }
+        document.addEventListener("DOMContentLoaded", function () {
+            const filterButtons = document.querySelectorAll(".filter-button");
+            const images = document.querySelectorAll(".gallery a");
+
+            filterButtons.forEach(button => {
+                button.addEventListener("click", function () {
+                    // Remove 'active' class from all buttons and add it to the clicked one
+                    filterButtons.forEach(btn => btn.classList.remove("active"));
+                    this.classList.add("active");
+
+                    const filterValue = this.getAttribute("data-filter");
+
+                    images.forEach(image => {
+                        const category = image.getAttribute("data-category");
+                        if (filterValue === "all" || category === filterValue) {
+                            image.style.display = "block";
+                        } else {
+                            image.style.display = "none";
+                        }
+                    });
+                });
             });
         });
 
         document.querySelectorAll('.gallery a').forEach(link => {
-            link.addEventListener('click', function() {
-                document.body.classList.add('lightbox-active'); // Apply blur effect
+            link.addEventListener('click', () => {
+                document.body.classList.add('lightbox-active');
             });
         });
+
+        document.querySelectorAll('.lightbox .close').forEach(close => {
+            close.addEventListener('click', () => {
+                document.body.classList.remove('lightbox-active');
+            });
+        });
+        
     </script>
 </body>
 </html>
