@@ -90,20 +90,26 @@ layout: default
             box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.1);
             text-align: center;
         }
+        /* Hover effect for depth */
+        .about-me:hover {
+            box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.15);
+        }
         form {
             display: flex;
             flex-direction: column;
             gap: 10px;
         }
         input, textarea {
-            width: 100%;
+            font-family: 'Lora', serif;
+            width: 80%;
+            max-width: 460px;
             padding: 10px;
             border: 1px solid #ddd;
             border-radius: 4px;
             font-size: 1rem;
         }
         button {
-            background-color: #403f1a;
+            background-color: #91b8b6;
             color: white;
             padding: 10px;
             border: none;
@@ -113,7 +119,8 @@ layout: default
             transition: background 0.3s;
         }
         button:hover {
-            background-color: #2e2d14;
+            color: #ffffff;
+            background-color: #9bc5c3;
         }
         .social-link {
             display: flex;
@@ -121,7 +128,7 @@ layout: default
             align-items: center;
             gap: 8px;
             margin-top: 15px;
-            font-size: 0.95rem;
+            font-size: 0.7rem;
         }
         .social-link img {
             height: 16px;
@@ -164,7 +171,7 @@ layout: default
         </form>
         <div class="social-link">
             <img src="https://img.icons8.com/?size=100&id=8808&format=png&color=000000" alt="LinkedIn Logo">
-            <a href="https://www.linkedin.com/in/yapsinyin/" target="_blank" rel="noopener noreferrer">or Connect on LinkedIn</a>
+            <a href="https://www.linkedin.com/in/yapsinyin/" target="_blank" rel="noopener noreferrer">Connect on LinkedIn</a>
         </div>
     </div>
 </body>
