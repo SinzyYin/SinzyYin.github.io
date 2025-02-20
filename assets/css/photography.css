@@ -1,4 +1,8 @@
-<style>
+---
+---
+
+@import "{{ site.theme }}";
+
 /* Navigation container - Compact */
 .nav-container {
 display: flex;
@@ -173,4 +177,3 @@ body.lightbox-active footer {
     background: rgba(255, 255, 255, 1);
     color: #000;
 }
-</style>
