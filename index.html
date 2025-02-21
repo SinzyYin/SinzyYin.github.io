@@ -28,47 +28,25 @@ layout: default
    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
    <style>
-       /* Navigation container - Compact with smooth animations */
-        .nav-container {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 15px;
-            font-size: 0.85rem;
-            font-family: "Lora", serif;
-            padding: 8px 15px;
-            background: rgba(255, 255, 255, 0.95);
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-            border-radius: 6px;
-            white-space: nowrap;
-        }
-
-        /* Style for links inside navigation */
+        /* Navigation links - smoother hover effect */
         .nav-container a {
             text-decoration: none;
             color: #333;
             padding: 5px 10px;
             border-radius: 4px;
-            transition: background 0.4s ease-in-out, transform 0.3s ease-in-out;
+            transition: background 0.5s cubic-bezier(0.25, 0.1, 0.25, 1), 
+                        transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
             white-space: nowrap;
             flex-shrink: 0;
         }
 
-        /* Smooth hover effect for navigation links */
+        /* Slightly slower hover effect */
         .nav-container a:hover {
-            background: rgba(64, 63, 26, 0.1);
-            transform: scale(1.05); /* Slight enlargement */
+            background: rgba(64, 63, 26, 0.12);
+            transform: scale(1.03); /* Subtle enlargement */
         }
 
-        /* Dropdown container */
-        .dropdown {
-            position: relative;
-            display: inline-block;
-            white-space: nowrap;
-            flex-shrink: 0;
-        }
-
-        /* Dropdown menu - Smooth fade-in & slide-down effect */
+        /* Dropdown menu - smoother fade-in & slide-down */
         .dropdown-content {
             display: flex;
             flex-direction: column;
@@ -84,33 +62,36 @@ layout: default
             min-width: 160px;
             padding: 8px;
             opacity: 0;
-            transform: translateY(5px); /* Start slightly lower */
+            transform: translateY(8px); /* Start slightly lower */
             pointer-events: none;
-            transition: opacity 0.4s ease-in-out, transform 0.4s ease-in-out;
+            transition: opacity 0.6s ease-in-out, 
+                        transform 0.6s cubic-bezier(0.25, 0.1, 0.25, 1);
         }
 
         /* Ensure dropdown stays open when hovering */
         .dropdown:hover .dropdown-content {
             opacity: 1;
-            transform: translateY(0); /* Smooth slide up */
+            transform: translateY(0);
             pointer-events: auto;
         }
 
-        /* Dropdown items with smoother hover effect */
+        /* Dropdown items - smoother hover effect */
         .dropdown-content a {
             padding: 6px 10px;
             color: #333;
             text-decoration: none;
             border-radius: 4px;
-            transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+            transition: background 0.5s cubic-bezier(0.25, 0.1, 0.25, 1), 
+                        transform 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
             white-space: nowrap;
         }
 
         /* Smooth hover effect for dropdown items */
         .dropdown-content a:hover {
-            background: rgba(64, 63, 26, 0.1);
-            transform: scale(1.05); /* Slight pop effect */
+            background: rgba(64, 63, 26, 0.12);
+            transform: scale(1.03); /* Subtle pop effect */
         }
+
 
 
         /* About Me Container - Modern Card Style */
