@@ -39,6 +39,9 @@ layout: default
             background: rgba(255, 255, 255, 0.95); /* Minimal light background */
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
             border-radius: 6px; /* Slightly rounded corners for elegance */
+            white-space: nowrap; /* Prevents text from wrapping */
+            overflow-x: auto; /* Allows horizontal scrolling if needed */
+            flex-wrap: nowrap; /* Ensures items stay in one line */
         }
 
         /* Style for links inside navigation */
@@ -48,6 +51,7 @@ layout: default
             padding: 5px 10px;
             border-radius: 4px;
             transition: background 0.3s ease;
+            white-space: nowrap; /* Prevents individual links from wrapping */
         }
 
         /* Hover effect for navigation links */
@@ -59,6 +63,7 @@ layout: default
         .dropdown {
             position: relative;
             display: inline-block;
+            white-space: nowrap; /* Ensures dropdown link does not wrap */
         }
 
         /* Dropdown menu - Slow fade-in animation with solid background */
@@ -96,12 +101,14 @@ layout: default
             text-decoration: none;
             border-radius: 4px;
             transition: background 0.3s ease;
+            white-space: nowrap; /* Prevents dropdown items from wrapping */
         }
 
         /* Hover effect for dropdown items */
         .dropdown-content a:hover {
             background: rgba(64, 63, 26, 0.1);
         }
+
         /* About Me Container - Modern Card Style */
         .about-me {
             background-color: #fdfdfd;
@@ -140,6 +147,7 @@ layout: default
             /* Fallback Color */
             color: #32423B;
         }
+
 
         /* Underline Animation */
         .about-me h4::after {
