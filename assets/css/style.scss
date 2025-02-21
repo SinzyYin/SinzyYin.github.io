@@ -10,7 +10,70 @@ $primary-color: #32423B;
 $background-color: #fdfcfb !important;
 $background-gradient: linear-gradient(135deg, #fdfcfb 0%, #e2d1c3 100%) !important;
 
+@font-face {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 100 1000;
+    src: url('/assets/fonts/DM-Sans-Normal-Var-LatinExt.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 100 1000;
+    src: url('/assets/fonts/DM-Sans-Normal-Var-Latin.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 100 1000;
+    src: url('/assets/fonts/DM-Sans-Italic-Var-LatinExt.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'DM Sans';
+    font-style: italic;
+    font-weight: 100 1000;
+    src: url('/assets/fonts/DM-Sans-Italic-Var-Latin.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 400 700;
+    src: url('/assets/fonts/Lora-Italic-400-700-CyrillicExt.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 400 700;
+    src: url('/assets/fonts/Lora-Italic-400-700-Cyrillic.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 400 700;
+    src: url('/assets/fonts/Lora-Italic-400-700-Math.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 400 700;
+    src: url('/assets/fonts/Lora-Italic-400-700-Symbols.woff2') format('woff2');
+  }
+  
+  @font-face {
+    font-family: 'Lora';
+    font-style: italic;
+    font-weight: 400 700;
+    src: url('/assets/fonts/Lora-Italic-400-700-Vietnamese.woff2') format('woff2');
+  }
 
+  
 body {
     font-family: $primary-font !important;
     font-weight: 300 !important;
