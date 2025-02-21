@@ -28,20 +28,19 @@ layout: default
    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
    <style>
-        /* Navigation container - Compact with solid background */
+       /* Navigation container - Compact with solid background */
         .nav-container {
             display: flex;
             align-items: center;
-            gap: 15px; /* Reduce spacing between items */
-            font-size: 0.85rem; /* Smaller font */
+            justify-content: space-between; /* Ensures items stay in one line */
+            gap: 15px; /* Maintain spacing between items */
+            font-size: 0.85rem;
             font-family: "Lora", serif;
-            padding: 8px 15px; /* Adjust padding for spacing */
+            padding: 8px 15px;
             background: rgba(255, 255, 255, 0.95); /* Minimal light background */
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-            border-radius: 6px; /* Slightly rounded corners for elegance */
-            white-space: nowrap; /* Prevents text from wrapping */
-            overflow-x: auto; /* Allows horizontal scrolling if needed */
-            flex-wrap: nowrap; /* Ensures items stay in one line */
+            border-radius: 6px;
+            white-space: nowrap; /* Prevent text wrapping */
         }
 
         /* Style for links inside navigation */
@@ -52,6 +51,7 @@ layout: default
             border-radius: 4px;
             transition: background 0.3s ease;
             white-space: nowrap; /* Prevents individual links from wrapping */
+            flex-shrink: 0; /* Ensures items don't get compressed */
         }
 
         /* Hover effect for navigation links */
@@ -64,6 +64,7 @@ layout: default
             position: relative;
             display: inline-block;
             white-space: nowrap; /* Ensures dropdown link does not wrap */
+            flex-shrink: 0; /* Prevents compression */
         }
 
         /* Dropdown menu - Slow fade-in animation with solid background */
