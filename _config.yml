@@ -14,7 +14,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
 
   <img 
-    src="images\icons\linkedin icon.png" 
+    src="assets\icons\linkedin icon.png" 
     alt="LinkedIn Logo" 
     style="height:15px; margin-right:3px; vertical-align:middle;" />
   <a href="https://www.linkedin.com/in/yapsinyin/" style="color: #32423B;" target="_blank" rel="noopener noreferrer">
@@ -23,7 +23,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
 
   <img 
-    src="images\icons\github icon.png" 
+    src="assets\icons\github icon.png" 
     alt="GitHub Logo" 
     style="height:15px; margin-right:3px; vertical-align:middle;" />
   <a href="https://github.com/SinzyYin" style="color: #32423B;" target="_blank" rel="noopener noreferrer">
@@ -32,7 +32,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br>
 
   <img 
-    src="images\icons\resume icon.png" 
+    src="assets\icons\resume icon.png" 
     alt="Resume Logo" 
     style="height:15px; margin-right:3px; vertical-align:middle;" />
   <a href="pdf/resume.pdf" style="color: #32423B;" target="_blank" rel="noopener noreferrer">
