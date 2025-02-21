@@ -6,7 +6,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
 
   <img
-    src="images/icons/location icon.png"
+    src="assets\icons\location icon.png" 
     alt="Location Logo"
     width="15" height="15"
     style="margin-right:3px; vertical-align:middle;"
