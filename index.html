@@ -28,14 +28,31 @@ layout: default
    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 
    <style>
-        /* Navigation container - Compact */
+        /* Navigation container - Compact with solid background */
         .nav-container {
             display: flex;
             align-items: center;
             gap: 15px; /* Reduce spacing between items */
             font-size: 0.85rem; /* Smaller font */
             font-family: "Lora", serif;
-            padding: 5px 0; /* Reduce padding */
+            padding: 8px 15px; /* Adjust padding for spacing */
+            background: rgba(255, 255, 255, 0.95); /* Minimal light background */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+            border-radius: 6px; /* Slightly rounded corners for elegance */
+        }
+
+        /* Style for links inside navigation */
+        .nav-container a {
+            text-decoration: none;
+            color: #333; /* Dark gray for readability */
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background 0.3s ease;
+        }
+
+        /* Hover effect for navigation links */
+        .nav-container a:hover {
+            background: rgba(64, 63, 26, 0.1);
         }
 
         /* Dropdown container */
@@ -44,42 +61,47 @@ layout: default
             display: inline-block;
         }
 
-        /* Dropdown menu - Slow fade-in animation */
+        /* Dropdown menu - Slow fade-in animation with solid background */
         .dropdown-content {
             display: flex;
             flex-direction: column;
             position: absolute;
-            top: 110%; /* Move dropdown lower to avoid touching About Me */
+            top: 110%; /* Adjusted to avoid overlap */
             left: 0;
-            background: transparent;
+            background: rgba(255, 255, 255, 0.95); /* Solid background */
+            border: 1px solid rgba(0, 0, 0, 0.1); /* Subtle border */
+            border-radius: 6px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Soft shadow for dropdown */
             gap: 6px; /* Reduce spacing between dropdown items */
             font-size: 0.8rem;
             min-width: 160px;
-            padding-top: 5px;
+            padding: 8px;
             opacity: 0;
-            transform: translateY(-10px); /* Initially move up slightly */
-            pointer-events: none; /* Prevent interaction before it appears */
+            transform: translateY(-10px);
+            pointer-events: none;
             transition: opacity 0.4s ease, transform 0.4s ease;
         }
 
         /* Ensure dropdown stays open when hovering */
         .dropdown:hover .dropdown-content {
             opacity: 1;
-            transform: translateY(0); /* Moves to normal position smoothly */
+            transform: translateY(0);
             pointer-events: auto;
         }
 
-        /* Remove underline for dropdown items */
-        .dropdown-content a::after {
-            display: none !important;
+        /* Dropdown items */
+        .dropdown-content a {
+            padding: 6px 10px;
+            color: #333;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background 0.3s ease;
         }
 
-        /* Add a light hover background for dropdown items */
+        /* Hover effect for dropdown items */
         .dropdown-content a:hover {
             background: rgba(64, 63, 26, 0.1);
-            border-radius: 4px;
         }
-
         /* About Me Container - Modern Card Style */
         .about-me {
             background-color: #fdfdfd;
